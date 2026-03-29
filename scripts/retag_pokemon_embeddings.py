@@ -176,7 +176,7 @@ def main() -> None:
     ap.add_argument(
         "--min-tags",
         type=int,
-        default=2,
+        default=3,
         help="Minimum tags per species (clamped to <= max-tags)",
     )
     ap.add_argument(

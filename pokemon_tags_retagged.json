@@ -3,21 +3,24 @@
     "pokemon": "Bulbasaur",
     "tags": [
       "photosynthesis",
-      "leaf-tail"
+      "leaf-tail",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Ivysaur",
     "tags": [
       "sunlight-dependent",
-      "sleep-flame"
+      "sleep-flame",
+      "insectoid"
     ]
   },
   {
     "pokemon": "Venusaur",
     "tags": [
       "flower-bud",
-      "sun-powered"
+      "sun-powered",
+      "sweet-aroma"
     ]
   },
   {
@@ -41,77 +44,88 @@
     "pokemon": "Charizard",
     "tags": [
       "flame-tail",
-      "clawed-legs"
+      "clawed-legs",
+      "mushroom-like"
     ]
   },
   {
     "pokemon": "Squirtle",
     "tags": [
       "water-bubble",
-      "cheek-pouches"
+      "cheek-pouches",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Wartortle",
     "tags": [
       "fluffy-tail",
-      "rock-shell"
+      "rock-shell",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Blastoise",
     "tags": [
       "ferocious",
-      "water-bubble"
+      "water-bubble",
+      "metal-absorber"
     ]
   },
   {
     "pokemon": "Caterpie",
     "tags": [
       "flame-sac",
-      "poison-powder"
+      "poison-powder",
+      "insectoid"
     ]
   },
   {
     "pokemon": "Metapod",
     "tags": [
       "pod-living",
-      "metal-body"
+      "metal-body",
+      "sleeping"
     ]
   },
   {
     "pokemon": "Butterfree",
     "tags": [
       "frostbite-risk",
-      "poison-powder"
+      "poison-powder",
+      "omnivorous"
     ]
   },
   {
     "pokemon": "Weedle",
     "tags": [
       "venomous",
-      "flower-bud"
+      "flower-bud",
+      "seaweed-eater"
     ]
   },
   {
     "pokemon": "Kakuna",
     "tags": [
       "kleptomaniac",
-      "larval-form"
+      "larval-form",
+      "tree-dweller"
     ]
   },
   {
     "pokemon": "Beedrill",
     "tags": [
       "insectoid",
-      "venomous"
+      "venomous",
+      "honey-producer"
     ]
   },
   {
     "pokemon": "Pidgey",
     "tags": [
       "piscivorous",
-      "fluffy-fur"
+      "fluffy-fur",
+      "vestigial-wings"
     ]
   },
   {
@@ -136,42 +150,48 @@
     "pokemon": "Rattata",
     "tags": [
       "venomous",
-      "clawed-paws"
+      "clawed-paws",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Raticate",
     "tags": [
       "clawed-legs",
-      "venomous"
+      "venomous",
+      "webbed-feet"
     ]
   },
   {
     "pokemon": "Spearow",
     "tags": [
       "long-neck",
-      "dark-habitat"
+      "dark-habitat",
+      "horned"
     ]
   },
   {
     "pokemon": "Fearow",
     "tags": [
       "fish-like",
-      "vestigial-wings"
+      "vestigial-wings",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Ekans",
     "tags": [
       "venomous",
-      "sharp-teeth"
+      "sharp-teeth",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Arbok",
     "tags": [
       "closed-eyes",
-      "ultra-beast"
+      "ultra-beast",
+      "spike-defense"
     ]
   },
   {
@@ -186,378 +206,432 @@
     "pokemon": "Raichu",
     "tags": [
       "fluffy-tail",
-      "burrower"
+      "burrower",
+      "bipedal"
     ]
   },
   {
     "pokemon": "Sandshrew",
     "tags": [
       "rock-shell",
-      "arid-habitat"
+      "arid-habitat",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Sandslash",
     "tags": [
       "clawed-legs",
-      "muddy-habitat"
+      "muddy-habitat",
+      "fluffy-fur"
     ]
   },
   {
     "pokemon": "Nidoran-F",
     "tags": [
       "piscivore",
-      "dinosaur-like"
+      "dinosaur-like",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Nidorina",
     "tags": [
       "insectivorous",
-      "dark-type"
+      "dark-type",
+      "burrower"
     ]
   },
   {
     "pokemon": "Nidoqueen",
     "tags": [
       "clawed-paws",
-      "dark-type"
+      "dark-type",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Nidoran-M",
     "tags": [
       "piscivore",
-      "dinosaur-like"
+      "dinosaur-like",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Nidorino",
     "tags": [
       "volcano-dweller",
-      "sharp-teeth"
+      "sharp-teeth",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Nidoking",
     "tags": [
       "metallic-body",
-      "clawed-paws"
+      "clawed-paws",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Clefairy",
     "tags": [
       "bipedal",
-      "vestigial-wings"
+      "vestigial-wings",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Clefable",
     "tags": [
       "vestigial-wings",
-      "telepathic"
+      "telepathic",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Vulpix",
     "tags": [
       "flame-tail",
-      "vestigial-wings"
+      "vestigial-wings",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Ninetales",
     "tags": [
       "extinct-myth",
-      "horned"
+      "horned",
+      "fluffy-fur"
     ]
   },
   {
     "pokemon": "Jigglypuff",
     "tags": [
       "sleep-inducing",
-      "flotation-sac"
+      "flotation-sac",
+      "singing-pokemon"
     ]
   },
   {
     "pokemon": "Wigglytuff",
     "tags": [
       "fluffy-fur",
-      "gaseous-body"
+      "gaseous-body",
+      "fairy-type"
     ]
   },
   {
     "pokemon": "Zubat",
     "tags": [
       "nocturnal",
-      "metallic-body"
+      "metallic-body",
+      "z-power"
     ]
   },
   {
     "pokemon": "Golbat",
     "tags": [
       "blood-drinker",
-      "sharp-teeth"
+      "sharp-teeth",
+      "venomous"
     ]
   },
   {
     "pokemon": "Oddish",
     "tags": [
       "terrestrial",
-      "two-headed"
+      "two-headed",
+      "toxic-dust"
     ]
   },
   {
     "pokemon": "Gloom",
     "tags": [
       "sweet-aroma",
-      "flower-bud"
+      "flower-bud",
+      "poison-powder"
     ]
   },
   {
     "pokemon": "Vileplume",
     "tags": [
       "poison-powder",
-      "flower-bud"
+      "flower-bud",
+      "sweet-aroma"
     ]
   },
   {
     "pokemon": "Paras",
     "tags": [
       "mushroom-like",
-      "no-legs"
+      "no-legs",
+      "totem-pokemon"
     ]
   },
   {
     "pokemon": "Parasect",
     "tags": [
       "mushroom-like",
-      "decomposer"
+      "decomposer",
+      "endocytosis"
     ]
   },
   {
     "pokemon": "Venonat",
     "tags": [
       "insectivorous",
-      "single-eye"
+      "single-eye",
+      "nocturnal"
     ]
   },
   {
     "pokemon": "Venomoth",
     "tags": [
       "venomous",
-      "vestigial-wings"
+      "vestigial-wings",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Diglett",
     "tags": [
       "subterranean",
-      "soil-eater"
+      "soil-eater",
+      "burrower"
     ]
   },
   {
     "pokemon": "Dugtrio",
     "tags": [
       "underground-dweller",
-      "three-headed"
+      "three-headed",
+      "soil-eater"
     ]
   },
   {
     "pokemon": "Meowth",
     "tags": [
       "fluffy-tail",
-      "claw-digger"
+      "claw-digger",
+      "feline"
     ]
   },
   {
     "pokemon": "Persian",
     "tags": [
       "clawed-paws",
-      "moss-covered"
+      "moss-covered",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Psyduck",
     "tags": [
       "long-neck",
-      "lake-guardian"
+      "lake-guardian",
+      "sleep-discharge"
     ]
   },
   {
     "pokemon": "Golduck",
     "tags": [
       "water-swimmer",
-      "horned"
+      "horned",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Mankey",
     "tags": [
       "sharp-teeth",
-      "plankton-diet"
+      "plankton-diet",
+      "cave-dweller"
     ]
   },
   {
     "pokemon": "Primeape",
     "tags": [
       "piscivorous",
-      "metallic-body"
+      "metallic-body",
+      "poison-powder"
     ]
   },
   {
     "pokemon": "Growlithe",
     "tags": [
       "fluffy-tail",
-      "insectivorous"
+      "insectivorous",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Arcanine",
     "tags": [
       "fluffy-tail",
-      "dinosaur-like"
+      "dinosaur-like",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Poliwag",
     "tags": [
       "polar-adapted",
-      "algae-eater"
+      "algae-eater",
+      "lake-guardian"
     ]
   },
   {
     "pokemon": "Poliwhirl",
     "tags": [
       "mucus-coated",
-      "polar-adapted"
+      "polar-adapted",
+      "water-bubble"
     ]
   },
   {
     "pokemon": "Poliwrath",
     "tags": [
       "aquatic-swimmer",
-      "polar-adapted"
+      "polar-adapted",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Abra",
     "tags": [
       "telepathic",
-      "algae-eater"
+      "algae-eater",
+      "nocturnal"
     ]
   },
   {
     "pokemon": "Kadabra",
     "tags": [
       "kleptomaniac",
-      "big-jaw"
+      "big-jaw",
+      "horned"
     ]
   },
   {
     "pokemon": "Alakazam",
     "tags": [
       "psychic-powers",
-      "sharp-teeth"
+      "sharp-teeth",
+      "clawed-feet"
     ]
   },
   {
     "pokemon": "Machop",
     "tags": [
       "muscular",
-      "metallic-body"
+      "metallic-body",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Machoke",
     "tags": [
       "big-jaw",
-      "electric-fur"
+      "electric-fur",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Machamp",
     "tags": [
       "muscular",
-      "metallic-body"
+      "metallic-body",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Bellsprout",
     "tags": [
       "flower-bud",
-      "sleeping"
+      "sleeping",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Weepinbell",
     "tags": [
       "sleep-inducer",
-      "mucus-coated"
+      "mucus-coated",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Victreebel",
     "tags": [
       "leaf-eater",
-      "stone-body"
+      "stone-body",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Tentacool",
     "tags": [
       "larval-form",
-      "sleep-flame"
+      "sleep-flame",
+      "algae-eater"
     ]
   },
   {
     "pokemon": "Tentacruel",
     "tags": [
       "bioluminescent",
-      "vestigial-wings"
+      "vestigial-wings",
+      "larval-form"
     ]
   },
   {
     "pokemon": "Geodude",
     "tags": [
       "mountain-dweller",
-      "metallic-body"
+      "metallic-body",
+      "neoteny"
     ]
   },
   {
     "pokemon": "Graveler",
     "tags": [
       "rock-body",
-      "mountain-dweller"
+      "mountain-dweller",
+      "no-legs"
     ]
   },
   {
     "pokemon": "Golem",
     "tags": [
       "rock-shell",
-      "cellulose-diet"
+      "cellulose-diet",
+      "metal-body"
     ]
   },
   {
     "pokemon": "Ponyta",
     "tags": [
       "fluffy-tail",
-      "fire-breath"
+      "fire-breath",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Rapidash",
     "tags": [
       "high-speed",
-      "flame-tail"
+      "flame-tail",
+      "electric-fur"
     ]
   },
   {
     "pokemon": "Slowpoke",
     "tags": [
       "long-tail",
-      "mushroom-like"
+      "mushroom-like",
+      "amphibious"
     ]
   },
   {
@@ -573,28 +647,32 @@
     "pokemon": "Magnemite",
     "tags": [
       "metallic-body",
-      "magnetic-spin"
+      "magnetic-spin",
+      "rock-salt"
     ]
   },
   {
     "pokemon": "Magneton",
     "tags": [
       "magnetic-spin",
-      "three-headed"
+      "three-headed",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Farfetch’d",
     "tags": [
       "amphibious",
-      "omnivore"
+      "omnivore",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Doduo",
     "tags": [
       "two-headed",
-      "sleeping"
+      "sleeping",
+      "dinosaur-like"
     ]
   },
   {
@@ -611,140 +689,160 @@
     "pokemon": "Seel",
     "tags": [
       "camouflage",
-      "ice-crystals"
+      "ice-crystals",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Dewgong",
     "tags": [
       "cold-adapted",
-      "dew-drinker"
+      "dew-drinker",
+      "sunlight-dependent"
     ]
   },
   {
     "pokemon": "Grimer",
     "tags": [
       "toxic-dust",
-      "decomposer"
+      "decomposer",
+      "acid-spitter"
     ]
   },
   {
     "pokemon": "Muk",
     "tags": [
       "mucus-coated",
-      "toxic-dust"
+      "toxic-dust",
+      "life-drain"
     ]
   },
   {
     "pokemon": "Shellder",
     "tags": [
       "rock-shell",
-      "mucus-coated"
+      "mucus-coated",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Cloyster",
     "tags": [
       "rock-shell",
-      "mucus-coated"
+      "mucus-coated",
+      "aquatic-swimmer"
     ]
   },
   {
     "pokemon": "Gastly",
     "tags": [
       "gaseous-body",
-      "venomous"
+      "venomous",
+      "fire-breath"
     ]
   },
   {
     "pokemon": "Haunter",
     "tags": [
       "ghost-type",
-      "gaseous-body"
+      "gaseous-body",
+      "venomous"
     ]
   },
   {
     "pokemon": "Gengar",
     "tags": [
       "invisible",
-      "heat-sensitive"
+      "heat-sensitive",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Onix",
     "tags": [
       "subterranean",
-      "ice-crystals"
+      "ice-crystals",
+      "venomous"
     ]
   },
   {
     "pokemon": "Drowzee",
     "tags": [
       "clawed-legs",
-      "dream-eater"
+      "dream-eater",
+      "semiaquatic"
     ]
   },
   {
     "pokemon": "Hypno",
     "tags": [
       "nocturnal",
-      "long-neck"
+      "long-neck",
+      "cave-dweller"
     ]
   },
   {
     "pokemon": "Krabby",
     "tags": [
       "kleptomaniac",
-      "clawed-legs"
+      "clawed-legs",
+      "amphibious"
     ]
   },
   {
     "pokemon": "Kingler",
     "tags": [
       "clawed-legs",
-      "gentle-giant"
+      "gentle-giant",
+      "metal-absorber"
     ]
   },
   {
     "pokemon": "Voltorb",
     "tags": [
       "high-voltage",
-      "berry-eater"
+      "berry-eater",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Electrode",
     "tags": [
       "high-voltage",
-      "electric-fur"
+      "electric-fur",
+      "sleep-discharge"
     ]
   },
   {
     "pokemon": "Exeggcute",
     "tags": [
       "endocytosis",
-      "single-eye"
+      "single-eye",
+      "decomposer"
     ]
   },
   {
     "pokemon": "Exeggutor",
     "tags": [
       "insectivore",
-      "three-headed"
+      "three-headed",
+      "endocytosis"
     ]
   },
   {
     "pokemon": "Cubone",
     "tags": [
       "clawed-paws",
-      "big-jaw"
+      "big-jaw",
+      "living-fossil"
     ]
   },
   {
     "pokemon": "Marowak",
     "tags": [
       "clawed-feet",
-      "stone-body"
+      "stone-body",
+      "living-fossil"
     ]
   },
   {
@@ -752,6 +850,7 @@
     "tags": [
       "no-legs",
       "long-neck",
+      "female-only",
       "mechanical"
     ]
   },
@@ -759,203 +858,232 @@
     "pokemon": "Hitmonchan",
     "tags": [
       "mechanical",
-      "metal-absorber"
+      "metal-absorber",
+      "poison-stinger"
     ]
   },
   {
     "pokemon": "Lickitung",
     "tags": [
       "big-jaw",
-      "sweet-aroma"
+      "sweet-aroma",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Koffing",
     "tags": [
       "gaseous-body",
-      "toxic-dust"
+      "toxic-dust",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Weezing",
     "tags": [
       "flammable-gas",
-      "three-headed"
+      "three-headed",
+      "big-jaw"
     ]
   },
   {
     "pokemon": "Rhyhorn",
     "tags": [
       "horned",
-      "long-neck"
+      "long-neck",
+      "rock-body"
     ]
   },
   {
     "pokemon": "Rhydon",
     "tags": [
       "horned",
-      "rock-body"
+      "rock-body",
+      "dinosaur-like"
     ]
   },
   {
     "pokemon": "Chansey",
     "tags": [
       "egg-stealer",
-      "ice-crystals"
+      "ice-crystals",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Tangela",
     "tags": [
       "seaweed-eater",
-      "sticky-silk"
+      "sticky-silk",
+      "poison-spikes"
     ]
   },
   {
     "pokemon": "Kangaskhan",
     "tags": [
       "curious",
-      "cheek-pouches"
+      "cheek-pouches",
+      "gentle-giant"
     ]
   },
   {
     "pokemon": "Horsea",
     "tags": [
       "aquatic",
-      "flower-bud"
+      "flower-bud",
+      "dinosaur-like"
     ]
   },
   {
     "pokemon": "Seadra",
     "tags": [
       "seaweed-eater",
-      "venomous"
+      "venomous",
+      "aquatic-swimmer"
     ]
   },
   {
     "pokemon": "Goldeen",
     "tags": [
       "horned",
-      "light-attracted"
+      "light-attracted",
+      "galarian-form"
     ]
   },
   {
     "pokemon": "Seaking",
     "tags": [
       "deep-sea",
-      "flotation-sac"
+      "flotation-sac",
+      "seaweed-eater"
     ]
   },
   {
     "pokemon": "Staryu",
     "tags": [
       "sun-basking",
-      "galarian-form"
+      "galarian-form",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Starmie",
     "tags": [
       "bioluminescent",
-      "sun-powered"
+      "sun-powered",
+      "galarian-form"
     ]
   },
   {
     "pokemon": "Mr. Mime",
     "tags": [
       "rock-body",
-      "mucus-coated"
+      "mucus-coated",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Scyther",
     "tags": [
       "insectivore",
-      "clawed-legs"
+      "clawed-legs",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Jynx",
     "tags": [
       "singing-pokemon",
-      "clawed-feet"
+      "clawed-feet",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Electabuzz",
     "tags": [
       "electric-fur",
-      "electric-cheeks"
+      "electric-cheeks",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Magmar",
     "tags": [
       "volcano-dweller",
-      "ice-crystals"
+      "ice-crystals",
+      "heat-sensitive"
     ]
   },
   {
     "pokemon": "Pinsir",
     "tags": [
       "clawed-feet",
-      "horned"
+      "horned",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Tauros",
     "tags": [
       "fluffy-tail",
-      "tusked"
+      "tusked",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Magikarp",
     "tags": [
       "heavy-lifting",
-      "vestigial-wings"
+      "vestigial-wings",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Gyarados",
     "tags": [
       "sharp-teeth",
-      "dinosaur-like"
+      "dinosaur-like",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Lapras",
     "tags": [
       "amphibious",
-      "apex-predator"
+      "apex-predator",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Ditto",
     "tags": [
       "living-fossil",
-      "single-eye"
+      "single-eye",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Eevee",
     "tags": [
       "omnivore",
-      "electric-fur"
+      "electric-fur",
+      "origin-forme"
     ]
   },
   {
     "pokemon": "Vaporeon",
     "tags": [
       "aquatic",
-      "flame-tail"
+      "flame-tail",
+      "webbed-feet"
     ]
   },
   {
     "pokemon": "Jolteon",
     "tags": [
       "electric-fur",
-      "earthquake-trigger"
+      "earthquake-trigger",
+      "high-voltage"
     ]
   },
   {
@@ -970,203 +1098,232 @@
     "pokemon": "Porygon",
     "tags": [
       "fossil-revived",
-      "hisuian-form"
+      "hisuian-form",
+      "artificial"
     ]
   },
   {
     "pokemon": "Omanyte",
     "tags": [
       "mega-evolve",
-      "rock-shell"
+      "rock-shell",
+      "seaweed-eater"
     ]
   },
   {
     "pokemon": "Omastar",
     "tags": [
       "omnivorous",
-      "rock-shell"
+      "rock-shell",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Kabuto",
     "tags": [
       "extinct",
-      "seaweed-eater"
+      "seaweed-eater",
+      "single-eye"
     ]
   },
   {
     "pokemon": "Kabutops",
     "tags": [
       "extinct",
-      "plankton-eater"
+      "plankton-eater",
+      "kleptomaniac"
     ]
   },
   {
     "pokemon": "Aerodactyl",
     "tags": [
       "dinosaur-like",
-      "vestigial-wings"
+      "vestigial-wings",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Snorlax",
     "tags": [
       "seaweed-eater",
-      "sleeping"
+      "sleeping",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Articuno",
     "tags": [
       "ice-crystals",
-      "vestigial-wings"
+      "vestigial-wings",
+      "endocytosis"
     ]
   },
   {
     "pokemon": "Zapdos",
     "tags": [
       "vestigial-wings",
-      "z-power"
+      "z-power",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Moltres",
     "tags": [
       "molting",
-      "flame-tail"
+      "flame-tail",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Dratini",
     "tags": [
       "moist-skin",
-      "living-fossil"
+      "living-fossil",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Dragonair",
     "tags": [
       "dragon-type",
-      "flying-capable"
+      "flying-capable",
+      "sweet-aroma"
     ]
   },
   {
     "pokemon": "Dragonite",
     "tags": [
       "dragon-type",
-      "stone-body"
+      "stone-body",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Mewtwo",
     "tags": [
       "living-fossil",
-      "hisuian-form"
+      "hisuian-form",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Mew",
     "tags": [
       "electric-tail",
-      "gigantamax"
+      "gigantamax",
+      "invisible"
     ]
   },
   {
     "pokemon": "Chikorita",
     "tags": [
       "mushroom-like",
-      "three-headed"
+      "three-headed",
+      "photosynthesis"
     ]
   },
   {
     "pokemon": "Bayleef",
     "tags": [
       "sweet-aroma",
-      "seaweed-eater"
+      "seaweed-eater",
+      "polar-adapted"
     ]
   },
   {
     "pokemon": "Meganium",
     "tags": [
       "mega-evolve",
-      "sleep-flame"
+      "sleep-flame",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Cyndaquil",
     "tags": [
       "flame-tail",
-      "semiaquatic"
+      "semiaquatic",
+      "fluffy-fur"
     ]
   },
   {
     "pokemon": "Quilava",
     "tags": [
       "flame-tail",
-      "quadrupedal"
+      "quadrupedal",
+      "hisuian-form"
     ]
   },
   {
     "pokemon": "Typhlosion",
     "tags": [
       "flame-tail",
-      "clawed-legs"
+      "clawed-legs",
+      "horned"
     ]
   },
   {
     "pokemon": "Totodile",
     "tags": [
       "clawed-legs",
-      "totem-pokemon"
+      "totem-pokemon",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Croconaw",
     "tags": [
       "sharp-teeth",
-      "clawed-legs"
+      "clawed-legs",
+      "venomous"
     ]
   },
   {
     "pokemon": "Feraligatr",
     "tags": [
       "clawed-legs",
-      "burrower"
+      "burrower",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Sentret",
     "tags": [
       "vestigial-wings",
-      "dark-type"
+      "dark-type",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Furret",
     "tags": [
       "fluffy-fur",
-      "clawed-paws"
+      "clawed-paws",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Hoothoot",
     "tags": [
       "clawed-feet",
-      "long-neck"
+      "long-neck",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Noctowl",
     "tags": [
       "nocturnal",
-      "fluffy-tail"
+      "fluffy-tail",
+      "owl-like"
     ]
   },
   {
     "pokemon": "Ledyba",
     "tags": [
       "endocytosis",
-      "light-attracted"
+      "light-attracted",
+      "larval-form"
     ]
   },
   {
@@ -1181,63 +1338,72 @@
     "pokemon": "Spinarak",
     "tags": [
       "magnetic-spin",
-      "algae-eater"
+      "algae-eater",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Ariados",
     "tags": [
       "venomous",
-      "light-absorber"
+      "light-absorber",
+      "piscivore"
     ]
   },
   {
     "pokemon": "Crobat",
     "tags": [
       "clawed-legs",
-      "vestigial-wings"
+      "vestigial-wings",
+      "semiaquatic"
     ]
   },
   {
     "pokemon": "Chinchou",
     "tags": [
       "electricity-generation",
-      "webbed-feet"
+      "webbed-feet",
+      "plankton-eater"
     ]
   },
   {
     "pokemon": "Lanturn",
     "tags": [
       "bioluminescent",
-      "rock-salt"
+      "rock-salt",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Pichu",
     "tags": [
       "electric-fur",
-      "cheek-pouches"
+      "cheek-pouches",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Cleffa",
     "tags": [
       "extraterrestrial",
-      "mucus-coated"
+      "mucus-coated",
+      "piscivore"
     ]
   },
   {
     "pokemon": "Igglybuff",
     "tags": [
       "singing-pokemon",
-      "fluffy-tail"
+      "fluffy-tail",
+      "venomous"
     ]
   },
   {
     "pokemon": "Togepi",
     "tags": [
       "totem-pokemon",
-      "fluffy-tail"
+      "fluffy-tail",
+      "sleeping"
     ]
   },
   {
@@ -1245,6 +1411,7 @@
     "tags": [
       "vestigial-wings",
       "totem-pokemon",
+      "sleeping",
       "flightless",
       "semiaquatic"
     ]
@@ -1253,42 +1420,48 @@
     "pokemon": "Natu",
     "tags": [
       "terrestrial",
-      "vestigial-wings"
+      "vestigial-wings",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Xatu",
     "tags": [
       "vestigial-wings",
-      "single-eye"
+      "single-eye",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Mareep",
     "tags": [
       "fluffy-fur",
-      "light-absorber"
+      "light-absorber",
+      "living-fossil"
     ]
   },
   {
     "pokemon": "Flaaffy",
     "tags": [
       "fluffy-tail",
-      "electric-fur"
+      "electric-fur",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Ampharos",
     "tags": [
       "mega-evolve",
-      "light-attracted"
+      "light-attracted",
+      "sleep-discharge"
     ]
   },
   {
     "pokemon": "Bellossom",
     "tags": [
       "photosynthesis",
-      "electric-cheeks"
+      "electric-cheeks",
+      "totem-pokemon"
     ]
   },
   {
@@ -1303,133 +1476,152 @@
     "pokemon": "Azumarill",
     "tags": [
       "flotation-sac",
-      "water-bubble"
+      "water-bubble",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Sudowoodo",
     "tags": [
       "fluffy-tail",
-      "polar-adapted"
+      "polar-adapted",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Politoed",
     "tags": [
       "polar-adapted",
-      "clawed-legs"
+      "clawed-legs",
+      "horned"
     ]
   },
   {
     "pokemon": "Hoppip",
     "tags": [
       "wind-dependent",
-      "leaf-tail"
+      "leaf-tail",
+      "insectoid"
     ]
   },
   {
     "pokemon": "Skiploom",
     "tags": [
       "flower-bud",
-      "omnivorous"
+      "omnivorous",
+      "cold-resistant"
     ]
   },
   {
     "pokemon": "Jumpluff",
     "tags": [
       "swamp-dweller",
-      "levitating"
+      "levitating",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Aipom",
     "tags": [
       "electric-tail",
-      "fruit-eater"
+      "fruit-eater",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Sunkern",
     "tags": [
       "leaf-tail",
-      "closed-eyes"
+      "closed-eyes",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Sunflora",
     "tags": [
       "sun-powered",
-      "photosynthesis"
+      "photosynthesis",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Yanma",
     "tags": [
       "closed-eyes",
-      "larval-form"
+      "larval-form",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Wooper",
     "tags": [
       "horned",
-      "pod-living"
+      "pod-living",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Quagsire",
     "tags": [
       "venomous",
-      "frostbite-risk"
+      "frostbite-risk",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Espeon",
     "tags": [
       "electric-fur",
-      "stone-body"
+      "stone-body",
+      "single-eye"
     ]
   },
   {
     "pokemon": "Umbreon",
     "tags": [
       "light-attracted",
-      "horned"
+      "horned",
+      "endocytosis"
     ]
   },
   {
     "pokemon": "Murkrow",
     "tags": [
       "mucus-coated",
-      "clawed-legs"
+      "clawed-legs",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Slowking",
     "tags": [
       "slow-moving",
-      "rock-shell"
+      "rock-shell",
+      "venomous"
     ]
   },
   {
     "pokemon": "Misdreavus",
     "tags": [
       "dark-habitat",
-      "electric-fur"
+      "electric-fur",
+      "horned"
     ]
   },
   {
     "pokemon": "Unown",
     "tags": [
       "invisible",
-      "closed-eyes"
+      "closed-eyes",
+      "alolan-form"
     ]
   },
   {
     "pokemon": "Wobbuffet",
     "tags": [
       "fluffy-tail",
-      "single-eye"
+      "single-eye",
+      "electric-cheeks"
     ]
   },
   {
@@ -1444,77 +1636,88 @@
     "pokemon": "Pineco",
     "tags": [
       "tree-dweller",
-      "stone-body"
+      "stone-body",
+      "alolan-form"
     ]
   },
   {
     "pokemon": "Forretress",
     "tags": [
       "vestigial-wings",
-      "rock-shell"
+      "rock-shell",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Dunsparce",
     "tags": [
       "fluffy-tail",
-      "subterranean"
+      "subterranean",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Gligar",
     "tags": [
       "insectivore",
-      "cheek-sacs"
+      "cheek-sacs",
+      "gluttonous"
     ]
   },
   {
     "pokemon": "Steelix",
     "tags": [
       "metal-body",
-      "sharp-teeth"
+      "sharp-teeth",
+      "iron-eater"
     ]
   },
   {
     "pokemon": "Snubbull",
     "tags": [
       "sleeping",
-      "horned"
+      "horned",
+      "cave-dweller"
     ]
   },
   {
     "pokemon": "Granbull",
     "tags": [
       "big-jaw",
-      "fluffy-tail"
+      "fluffy-tail",
+      "venomous"
     ]
   },
   {
     "pokemon": "Qwilfish",
     "tags": [
       "fish-eater",
-      "larval-form"
+      "larval-form",
+      "venomous"
     ]
   },
   {
     "pokemon": "Scizor",
     "tags": [
       "clawed-legs",
-      "metallic-body"
+      "metallic-body",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Shuckle",
     "tags": [
       "berry-diet",
-      "acid-digestion"
+      "acid-digestion",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Heracross",
     "tags": [
       "vestigial-wings",
-      "fluffy-tail"
+      "fluffy-tail",
+      "totem-pokemon"
     ]
   },
   {
@@ -1530,217 +1733,248 @@
     "pokemon": "Teddiursa",
     "tags": [
       "clawed-paws",
-      "honey-producer"
+      "honey-producer",
+      "piscivore"
     ]
   },
   {
     "pokemon": "Ursaring",
     "tags": [
       "clawed-legs",
-      "mushroom-like"
+      "mushroom-like",
+      "forest-dweller"
     ]
   },
   {
     "pokemon": "Slugma",
     "tags": [
       "volcano-dweller",
-      "rock-body"
+      "rock-body",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Magcargo",
     "tags": [
       "gaseous-body",
-      "lagomorph"
+      "lagomorph",
+      "heat-sensitive"
     ]
   },
   {
     "pokemon": "Swinub",
     "tags": [
       "clawed-legs",
-      "mucus-coated"
+      "mucus-coated",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Piloswine",
     "tags": [
       "fluffy-fur",
-      "rock-shell"
+      "rock-shell",
+      "piscivore"
     ]
   },
   {
     "pokemon": "Corsola",
     "tags": [
       "horned",
-      "bioluminescent"
+      "bioluminescent",
+      "algae-eater"
     ]
   },
   {
     "pokemon": "Remoraid",
     "tags": [
       "amphibious",
-      "single-eye"
+      "single-eye",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Octillery",
     "tags": [
       "venomous",
-      "flammable-gas"
+      "flammable-gas",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Delibird",
     "tags": [
       "insect-diet",
-      "omnivore"
+      "omnivore",
+      "poison-powder"
     ]
   },
   {
     "pokemon": "Mantine",
     "tags": [
       "aquatic",
-      "vestigial-wings"
+      "vestigial-wings",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Skarmory",
     "tags": [
       "vestigial-wings",
-      "metallic-body"
+      "metallic-body",
+      "fluffy-fur"
     ]
   },
   {
     "pokemon": "Houndour",
     "tags": [
       "clawed-paws",
-      "long-neck"
+      "long-neck",
+      "fur-covered"
     ]
   },
   {
     "pokemon": "Houndoom",
     "tags": [
       "long-neck",
-      "rock-shell"
+      "rock-shell",
+      "flower-bud"
     ]
   },
   {
     "pokemon": "Kingdra",
     "tags": [
       "sleep-discharge",
-      "vestigial-wings"
+      "vestigial-wings",
+      "water-bubble"
     ]
   },
   {
     "pokemon": "Phanpy",
     "tags": [
       "amphibious",
-      "clawed-legs"
+      "clawed-legs",
+      "nest-guardian"
     ]
   },
   {
     "pokemon": "Donphan",
     "tags": [
       "mechanical",
-      "cheek-pouches"
+      "cheek-pouches",
+      "two-headed"
     ]
   },
   {
     "pokemon": "Porygon2",
     "tags": [
       "living-fossil",
-      "no-legs"
+      "no-legs",
+      "hisuian-form"
     ]
   },
   {
     "pokemon": "Stantler",
     "tags": [
       "illusion-maker",
-      "closed-eyes"
+      "closed-eyes",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Smeargle",
     "tags": [
       "color-changing",
-      "fluffy-tail"
+      "fluffy-tail",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Tyrogue",
     "tags": [
       "living-fossil",
-      "female-only"
+      "female-only",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Hitmontop",
     "tags": [
       "mechanical",
-      "leaf-tail"
+      "leaf-tail",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Smoochum",
     "tags": [
       "curious",
-      "mucus-coated"
+      "mucus-coated",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Elekid",
     "tags": [
       "electric-tail",
-      "metallic-body"
+      "metallic-body",
+      "sleep-discharge"
     ]
   },
   {
     "pokemon": "Magby",
     "tags": [
       "flame-tail",
-      "magnetic-spin"
+      "magnetic-spin",
+      "heat-sensitive"
     ]
   },
   {
     "pokemon": "Miltank",
     "tags": [
       "horned",
-      "bipedal"
+      "bipedal",
+      "moist-skin"
     ]
   },
   {
     "pokemon": "Blissey",
     "tags": [
       "fluffy-tail",
-      "sweet-aroma"
+      "sweet-aroma",
+      "egg-stealer"
     ]
   },
   {
     "pokemon": "Raikou",
     "tags": [
       "flame-tail",
-      "stone-body"
+      "stone-body",
+      "light-absorber"
     ]
   },
   {
     "pokemon": "Entei",
     "tags": [
       "clawed-feet",
-      "flame-sac"
+      "flame-sac",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Suicune",
     "tags": [
       "polluted-water",
-      "clawed-legs"
+      "clawed-legs",
+      "legendary"
     ]
   },
   {
     "pokemon": "Larvitar",
     "tags": [
       "volcano-dweller",
-      "larval-form"
+      "larval-form",
+      "carnivore"
     ]
   },
   {
@@ -1748,9 +1982,9 @@
     "tags": [
       "sleep-inducer",
       "gaseous-body",
+      "fluffy-fur",
       "larval-form",
-      "damp-habitat",
-      "living-fossil"
+      "damp-habitat"
     ]
   },
   {
@@ -1766,84 +2000,96 @@
     "pokemon": "Lugia",
     "tags": [
       "long-neck",
-      "light-absorber"
+      "light-absorber",
+      "piscivore"
     ]
   },
   {
     "pokemon": "Ho-Oh",
     "tags": [
       "omnivore",
-      "horned"
+      "horned",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Celebi",
     "tags": [
       "sun-powered",
-      "bioluminescent"
+      "bioluminescent",
+      "leaf-eater"
     ]
   },
   {
     "pokemon": "Treecko",
     "tags": [
       "forest-guardian",
-      "webbed-feet"
+      "webbed-feet",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Grovyle",
     "tags": [
       "clawed-legs",
-      "sleeping"
+      "sleeping",
+      "moss-covered"
     ]
   },
   {
     "pokemon": "Sceptile",
     "tags": [
       "scavenger",
-      "forest-guardian"
+      "forest-guardian",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Torchic",
     "tags": [
       "flame-sac",
-      "flammable-gas"
+      "flammable-gas",
+      "heat-sensitive"
     ]
   },
   {
     "pokemon": "Combusken",
     "tags": [
       "clawed-legs",
-      "electric-fur"
+      "electric-fur",
+      "flame-tail"
     ]
   },
   {
     "pokemon": "Blaziken",
     "tags": [
       "vestigial-wings",
-      "color-changing"
+      "color-changing",
+      "rabbit-like"
     ]
   },
   {
     "pokemon": "Mudkip",
     "tags": [
       "muddy-habitat",
-      "rock-body"
+      "rock-body",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Marshtomp",
     "tags": [
       "swamp-dweller",
-      "clawed-legs"
+      "clawed-legs",
+      "sleeping"
     ]
   },
   {
     "pokemon": "Swampert",
     "tags": [
       "swamp-dweller",
-      "clawed-legs"
+      "clawed-legs",
+      "flotation-sac"
     ]
   },
   {
@@ -1859,6 +2105,7 @@
     "tags": [
       "herd-leader",
       "mega-evolve",
+      "light-absorber",
       "ultra-beast",
       "insectivorous"
     ]
@@ -1867,56 +2114,64 @@
     "pokemon": "Zigzagoon",
     "tags": [
       "electric-fur",
-      "dinosaur-like"
+      "dinosaur-like",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Linoone",
     "tags": [
       "fluffy-tail",
-      "muddy-habitat"
+      "muddy-habitat",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Wurmple",
     "tags": [
       "algae-eater",
-      "sticky-silk"
+      "sticky-silk",
+      "thermoregulation"
     ]
   },
   {
     "pokemon": "Silcoon",
     "tags": [
       "sticky-silk",
-      "plankton-eater"
+      "plankton-eater",
+      "moss-covered"
     ]
   },
   {
     "pokemon": "Beautifly",
     "tags": [
       "insect-diet",
-      "flower-bud"
+      "flower-bud",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Cascoon",
     "tags": [
       "sticky-silk",
-      "heat-resistant"
+      "heat-resistant",
+      "fossil-revived"
     ]
   },
   {
     "pokemon": "Dustox",
     "tags": [
       "toxic-dust",
-      "vestigial-wings"
+      "vestigial-wings",
+      "sunlight-dependent"
     ]
   },
   {
     "pokemon": "Lotad",
     "tags": [
       "swamp-dweller",
-      "mega-evolve"
+      "mega-evolve",
+      "polluted-water"
     ]
   },
   {
@@ -1932,7 +2187,8 @@
     "pokemon": "Ludicolo",
     "tags": [
       "light-attracted",
-      "stone-body"
+      "stone-body",
+      "insectoid"
     ]
   },
   {
@@ -1948,14 +2204,16 @@
     "pokemon": "Nuzleaf",
     "tags": [
       "burrower",
-      "leaf-tail"
+      "leaf-tail",
+      "totem-pokemon"
     ]
   },
   {
     "pokemon": "Shiftry",
     "tags": [
       "dark-habitat",
-      "clawed-paws"
+      "clawed-paws",
+      "galarian-form"
     ]
   },
   {
@@ -1963,6 +2221,7 @@
     "tags": [
       "fluffy-tail",
       "dark-habitat",
+      "vestigial-wings",
       "horned",
       "keystone-species"
     ]
@@ -1972,7 +2231,7 @@
     "tags": [
       "vestigial-wings",
       "amphibious",
-      "fluffy-tail",
+      "fluffy-fur",
       "avian"
     ]
   },
@@ -1980,154 +2239,176 @@
     "pokemon": "Wingull",
     "tags": [
       "vestigial-wings",
-      "ice-crystals"
+      "ice-crystals",
+      "flower-bud"
     ]
   },
   {
     "pokemon": "Pelipper",
     "tags": [
       "fruit-eater",
-      "cheek-pouches"
+      "cheek-pouches",
+      "water-bubble"
     ]
   },
   {
     "pokemon": "Ralts",
     "tags": [
       "humanoid",
-      "closed-eyes"
+      "closed-eyes",
+      "light-attracted"
     ]
   },
   {
     "pokemon": "Kirlia",
     "tags": [
       "clawed-legs",
-      "nocturnal"
+      "nocturnal",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Gardevoir",
     "tags": [
       "psychic-powers",
-      "vestigial-wings"
+      "vestigial-wings",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Surskit",
     "tags": [
       "water-type",
-      "insectivore"
+      "insectivore",
+      "moss-covered"
     ]
   },
   {
     "pokemon": "Masquerain",
     "tags": [
       "vestigial-wings",
-      "single-eye"
+      "single-eye",
+      "sleep-flame"
     ]
   },
   {
     "pokemon": "Shroomish",
     "tags": [
       "mushroom-like",
-      "toxic-dust"
+      "toxic-dust",
+      "soil-eater"
     ]
   },
   {
     "pokemon": "Breloom",
     "tags": [
       "semiaquatic",
-      "mucus-coated"
+      "mucus-coated",
+      "mushroom-like"
     ]
   },
   {
     "pokemon": "Slakoth",
     "tags": [
       "fluffy-fur",
-      "quadrupedal"
+      "quadrupedal",
+      "sleeping"
     ]
   },
   {
     "pokemon": "Vigoroth",
     "tags": [
       "ferocious",
-      "sleeping"
+      "sleeping",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Slaking",
     "tags": [
       "fluffy-fur",
-      "sleeping"
+      "sleeping",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Nincada",
     "tags": [
       "dark-habitat",
-      "single-eye"
+      "single-eye",
+      "insectivore"
     ]
   },
   {
     "pokemon": "Ninjask",
     "tags": [
       "camouflage",
-      "metallic-body"
+      "metallic-body",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Shedinja",
     "tags": [
       "mucus-coated",
-      "no-legs"
+      "no-legs",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Whismur",
     "tags": [
       "horned",
-      "closed-eyes"
+      "closed-eyes",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Loudred",
     "tags": [
       "silent",
-      "horned"
+      "horned",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Exploud",
     "tags": [
       "horned",
-      "bioluminescent"
+      "bioluminescent",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Makuhita",
     "tags": [
       "muscular",
-      "mucus-coated"
+      "mucus-coated",
+      "tropical"
     ]
   },
   {
     "pokemon": "Hariyama",
     "tags": [
       "long-neck",
-      "gaseous-body"
+      "gaseous-body",
+      "sunlight-dependent"
     ]
   },
   {
     "pokemon": "Azurill",
     "tags": [
       "flotation-sac",
-      "fluffy-tail"
+      "fluffy-tail",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Nosepass",
     "tags": [
       "burrower",
-      "cheek-sacs"
+      "cheek-sacs",
+      "closed-eyes"
     ]
   },
   {
@@ -2143,63 +2424,72 @@
     "pokemon": "Delcatty",
     "tags": [
       "fluffy-tail",
-      "decomposer"
+      "decomposer",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Sableye",
     "tags": [
       "stone-body",
-      "camouflage"
+      "camouflage",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Mawile",
     "tags": [
       "big-jaw",
-      "clawed-legs"
+      "clawed-legs",
+      "algae-eater"
     ]
   },
   {
     "pokemon": "Aron",
     "tags": [
       "metal-body",
-      "clawed-legs"
+      "clawed-legs",
+      "iron-eater"
     ]
   },
   {
     "pokemon": "Lairon",
     "tags": [
       "metal-eater",
-      "sleeping"
+      "sleeping",
+      "cave-dweller"
     ]
   },
   {
     "pokemon": "Aggron",
     "tags": [
       "metallic",
-      "cheek-pouches"
+      "cheek-pouches",
+      "endocytosis"
     ]
   },
   {
     "pokemon": "Meditite",
     "tags": [
       "bioluminescent",
-      "hypnotic"
+      "hypnotic",
+      "poison-stinger"
     ]
   },
   {
     "pokemon": "Medicham",
     "tags": [
       "aura-sense",
-      "bioluminescent"
+      "bioluminescent",
+      "poison-spikes"
     ]
   },
   {
     "pokemon": "Electrike",
     "tags": [
       "electric-fur",
-      "electric-cheeks"
+      "electric-cheeks",
+      "electric-diet"
     ]
   },
   {
@@ -2207,6 +2497,7 @@
     "tags": [
       "electric-fur",
       "bioluminescent",
+      "mega-evolve",
       "electric-cheeks"
     ]
   },
@@ -2214,14 +2505,16 @@
     "pokemon": "Plusle",
     "tags": [
       "sleep-inducing",
-      "quadrupedal"
+      "quadrupedal",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Minun",
     "tags": [
       "sleep-discharge",
-      "clawed-legs"
+      "clawed-legs",
+      "solitary"
     ]
   },
   {
@@ -2229,9 +2522,9 @@
     "tags": [
       "insectivore",
       "flame-tail",
+      "color-changing",
       "sweet-aroma",
-      "bipedal",
-      "poison-spikes"
+      "bipedal"
     ]
   },
   {
@@ -2246,77 +2539,88 @@
     "pokemon": "Roselia",
     "tags": [
       "sweet-aroma",
-      "color-changing"
+      "color-changing",
+      "poison-stinger"
     ]
   },
   {
     "pokemon": "Gulpin",
     "tags": [
       "acid-digestion",
-      "sleep-discharge"
+      "sleep-discharge",
+      "blood-drinker"
     ]
   },
   {
     "pokemon": "Swalot",
     "tags": [
       "venomous",
-      "sleeping"
+      "sleeping",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Carvanha",
     "tags": [
       "carnivore",
-      "fish-like"
+      "fish-like",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Sharpedo",
     "tags": [
       "sharp-teeth",
-      "deep-sea"
+      "deep-sea",
+      "fish-eater"
     ]
   },
   {
     "pokemon": "Wailmer",
     "tags": [
       "aquatic",
-      "plankton-diet"
+      "plankton-diet",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Wailord",
     "tags": [
       "plankton-eater",
-      "nest-guardian"
+      "nest-guardian",
+      "gentle-giant"
     ]
   },
   {
     "pokemon": "Numel",
     "tags": [
       "horned",
-      "desert-dweller"
+      "desert-dweller",
+      "sun-powered"
     ]
   },
   {
     "pokemon": "Camerupt",
     "tags": [
       "volcano-dweller",
-      "mega-evolve"
+      "mega-evolve",
+      "quadrupedal"
     ]
   },
   {
     "pokemon": "Torkoal",
     "tags": [
       "rock-shell",
-      "flammable-gas"
+      "flammable-gas",
+      "toxic-dust"
     ]
   },
   {
     "pokemon": "Spoink",
     "tags": [
       "amphibious",
-      "rock-shell"
+      "rock-shell",
+      "illusion-maker"
     ]
   },
   {
@@ -2333,168 +2637,192 @@
     "pokemon": "Spinda",
     "tags": [
       "magnetic-spin",
-      "dinosaur-like"
+      "dinosaur-like",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Trapinch",
     "tags": [
       "insectivore",
-      "sleeping"
+      "sleeping",
+      "rock-body"
     ]
   },
   {
     "pokemon": "Vibrava",
     "tags": [
       "vestigial-wings",
-      "sleep-discharge"
+      "sleep-discharge",
+      "apex-predator"
     ]
   },
   {
     "pokemon": "Flygon",
     "tags": [
       "vestigial-wings",
-      "sleep-discharge"
+      "sleep-discharge",
+      "larval-form"
     ]
   },
   {
     "pokemon": "Cacnea",
     "tags": [
       "algae-eater",
-      "flower-bud"
+      "flower-bud",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Cacturne",
     "tags": [
       "nocturnal",
-      "algae-eater"
+      "algae-eater",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Swablu",
     "tags": [
       "mucus-coated",
-      "fluffy-tail"
+      "fluffy-tail",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Altaria",
     "tags": [
       "avian",
-      "fluffy-tail"
+      "fluffy-tail",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Zangoose",
     "tags": [
       "clawed-legs",
-      "flame-tail"
+      "flame-tail",
+      "electric-fur"
     ]
   },
   {
     "pokemon": "Seviper",
     "tags": [
       "venomous",
-      "sharp-teeth"
+      "sharp-teeth",
+      "electric-tail"
     ]
   },
   {
     "pokemon": "Lunatone",
     "tags": [
       "stone-body",
-      "sun-powered"
+      "sun-powered",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Solrock",
     "tags": [
       "sunlight-dependent",
-      "ice-crystals"
+      "ice-crystals",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Barboach",
     "tags": [
       "plankton-eater",
-      "vestigial-wings"
+      "vestigial-wings",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Whiscash",
     "tags": [
       "plankton-eater",
-      "earthquake-trigger"
+      "earthquake-trigger",
+      "horned"
     ]
   },
   {
     "pokemon": "Corphish",
     "tags": [
       "insectivore",
-      "rock-shell"
+      "rock-shell",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Crawdaunt",
     "tags": [
       "clawed-legs",
-      "algae-eater"
+      "algae-eater",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Baltoy",
     "tags": [
       "prehistoric",
-      "magnetic-spin"
+      "magnetic-spin",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Claydol",
     "tags": [
       "stone-body",
-      "dinosaur-like"
+      "dinosaur-like",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Lileep",
     "tags": [
       "algae-eater",
-      "living-fossil"
+      "living-fossil",
+      "larval-form"
     ]
   },
   {
     "pokemon": "Cradily",
     "tags": [
       "amphibious",
-      "long-neck"
+      "long-neck",
+      "single-eye"
     ]
   },
   {
     "pokemon": "Anorith",
     "tags": [
       "dinosaur-like",
-      "algae-eater"
+      "algae-eater",
+      "hisuian-form"
     ]
   },
   {
     "pokemon": "Armaldo",
     "tags": [
       "vestigial-wings",
-      "clawed-legs"
+      "clawed-legs",
+      "mushroom-like"
     ]
   },
   {
     "pokemon": "Feebas",
     "tags": [
       "fish-like",
-      "moist-skin"
+      "moist-skin",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Milotic",
     "tags": [
       "venomous",
-      "color-changing"
+      "color-changing",
+      "rock-body"
     ]
   },
   {
@@ -2509,280 +2837,320 @@
     "pokemon": "Kecleon",
     "tags": [
       "camouflage",
-      "kleptomaniac"
+      "kleptomaniac",
+      "dinosaur-like"
     ]
   },
   {
     "pokemon": "Shuppet",
     "tags": [
       "sleep-inducing",
-      "horned"
+      "horned",
+      "levitation"
     ]
   },
   {
     "pokemon": "Banette",
     "tags": [
       "venomous",
-      "sleeping"
+      "sleeping",
+      "nest-guardian"
     ]
   },
   {
     "pokemon": "Duskull",
     "tags": [
       "dark-habitat",
-      "sunlight-dependent"
+      "sunlight-dependent",
+      "sleeping"
     ]
   },
   {
     "pokemon": "Dusclops",
     "tags": [
       "living-fossil",
-      "mucus-coated"
+      "mucus-coated",
+      "single-eye"
     ]
   },
   {
     "pokemon": "Tropius",
     "tags": [
       "leaf-tail",
-      "berry-diet"
+      "berry-diet",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Chimecho",
     "tags": [
       "horned",
-      "stone-body"
+      "stone-body",
+      "mushroom-like"
     ]
   },
   {
     "pokemon": "Absol",
     "tags": [
       "quadrupedal",
-      "ultra-beast"
+      "ultra-beast",
+      "webbed-feet"
     ]
   },
   {
     "pokemon": "Wynaut",
     "tags": [
       "horned",
-      "gaseous-body"
+      "gaseous-body",
+      "fluffy-fur"
     ]
   },
   {
     "pokemon": "Snorunt",
     "tags": [
       "camouflage",
-      "ice-crystals"
+      "ice-crystals",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Glalie",
     "tags": [
       "ice-crystals",
-      "gluttonous"
+      "gluttonous",
+      "snow-covered"
     ]
   },
   {
     "pokemon": "Spheal",
     "tags": [
       "heat-sensitive",
-      "fluffy-tail"
+      "fluffy-tail",
+      "piscivore"
     ]
   },
   {
     "pokemon": "Sealeo",
     "tags": [
       "moist-skin",
-      "mucus-coated"
+      "mucus-coated",
+      "fire-breath"
     ]
   },
   {
     "pokemon": "Walrein",
     "tags": [
       "piscivore",
-      "ice-crystals"
+      "ice-crystals",
+      "moist-skin"
     ]
   },
   {
     "pokemon": "Clamperl",
     "tags": [
       "rock-shell",
-      "cheek-pouches"
+      "cheek-pouches",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Huntail",
     "tags": [
       "aquatic-hunter",
-      "vestigial-wings"
+      "vestigial-wings",
+      "venomous"
     ]
   },
   {
     "pokemon": "Gorebyss",
     "tags": [
       "amphibious",
-      "gaseous-body"
+      "gaseous-body",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Relicanth",
     "tags": [
       "living-fossil",
-      "seaweed-eater"
+      "seaweed-eater",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Luvdisc",
     "tags": [
       "light-attracted",
-      "cheek-sacs"
+      "cheek-sacs",
+      "deep-sea"
     ]
   },
   {
     "pokemon": "Bagon",
     "tags": [
       "vestigial-wings",
-      "stone-body"
+      "stone-body",
+      "dinosaur-like"
     ]
   },
   {
     "pokemon": "Shelgon",
     "tags": [
       "rock-shell",
-      "endocytosis"
+      "endocytosis",
+      "larval-form"
     ]
   },
   {
     "pokemon": "Salamence",
     "tags": [
       "sharp-teeth",
-      "vestigial-wings"
+      "vestigial-wings",
+      "sunbathing"
     ]
   },
   {
     "pokemon": "Beldum",
     "tags": [
       "metal-body",
-      "magnetic-spin"
+      "magnetic-spin",
+      "big-jaw"
     ]
   },
   {
     "pokemon": "Metang",
     "tags": [
       "psychic-powers",
-      "metallic-body"
+      "metallic-body",
+      "levitation"
     ]
   },
   {
     "pokemon": "Metagross",
     "tags": [
       "metal-body",
-      "clawed-legs"
+      "clawed-legs",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Regirock",
     "tags": [
       "rock-shell",
-      "ice-crystals"
+      "ice-crystals",
+      "living-fossil"
     ]
   },
   {
     "pokemon": "Regice",
     "tags": [
       "ice-crystals",
-      "fossil-revived"
+      "fossil-revived",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Registeel",
     "tags": [
       "living-fossil",
-      "ice-crystals"
+      "ice-crystals",
+      "rock-body"
     ]
   },
   {
     "pokemon": "Latias",
     "tags": [
       "larval-form",
-      "vestigial-wings"
+      "vestigial-wings",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Latios",
     "tags": [
       "lagomorph",
-      "vestigial-wings"
+      "vestigial-wings",
+      "no-legs"
     ]
   },
   {
     "pokemon": "Kyogre",
     "tags": [
       "deep-sea",
-      "stone-body"
+      "stone-body",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Groudon",
     "tags": [
       "rain-sensitive",
-      "clawed-legs"
+      "clawed-legs",
+      "lake-guardian"
     ]
   },
   {
     "pokemon": "Rayquaza",
     "tags": [
       "venomous",
-      "closed-eyes"
+      "closed-eyes",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Jirachi",
     "tags": [
       "single-eye",
-      "sleep-discharge"
+      "sleep-discharge",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Deoxys",
     "tags": [
       "bioluminescent",
-      "metallic-body"
+      "metallic-body",
+      "extraterrestrial"
     ]
   },
   {
     "pokemon": "Turtwig",
     "tags": [
       "tusked",
-      "photosynthesis"
+      "photosynthesis",
+      "moist-skin"
     ]
   },
   {
     "pokemon": "Grotle",
     "tags": [
       "rock-shell",
-      "leaf-tail"
+      "leaf-tail",
+      "amphibious"
     ]
   },
   {
     "pokemon": "Torterra",
     "tags": [
       "clawed-paws",
-      "rock-shell"
+      "rock-shell",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Chimchar",
     "tags": [
       "fire-breath",
-      "three-headed"
+      "three-headed",
+      "fluffy-fur"
     ]
   },
   {
     "pokemon": "Monferno",
     "tags": [
       "flame-tail",
-      "fur-covered"
+      "fur-covered",
+      "long-neck"
     ]
   },
   {
@@ -2790,6 +3158,7 @@
     "tags": [
       "totem-pokemon",
       "clawed-legs",
+      "bioluminescent",
       "curious"
     ]
   },
@@ -2797,7 +3166,8 @@
     "pokemon": "Piplup",
     "tags": [
       "keystone-species",
-      "mucus-coated"
+      "mucus-coated",
+      "vestigial-wings"
     ]
   },
   {
@@ -2815,28 +3185,32 @@
     "tags": [
       "horned",
       "vestigial-wings",
-      "aquatic"
+      "lake-guardian",
+      "amphibious"
     ]
   },
   {
     "pokemon": "Starly",
     "tags": [
       "vestigial-wings",
-      "sun-sensitive"
+      "sun-sensitive",
+      "avian"
     ]
   },
   {
     "pokemon": "Staravia",
     "tags": [
       "apex-predator",
-      "galarian-form"
+      "galarian-form",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Staraptor",
     "tags": [
       "mega-evolve",
-      "vestigial-wings"
+      "vestigial-wings",
+      "sun-basking"
     ]
   },
   {
@@ -2844,6 +3218,7 @@
     "tags": [
       "clawed-paws",
       "big-jaw",
+      "muddy-habitat",
       "living-fossil"
     ]
   },
@@ -2851,7 +3226,8 @@
     "pokemon": "Bibarel",
     "tags": [
       "bipedal",
-      "sharp-teeth"
+      "sharp-teeth",
+      "seaweed-eater"
     ]
   },
   {
@@ -2866,49 +3242,56 @@
     "pokemon": "Kricketune",
     "tags": [
       "kleptomaniac",
-      "horned"
+      "horned",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Shinx",
     "tags": [
       "electric-fur",
-      "clawed-paws"
+      "clawed-paws",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Luxio",
     "tags": [
       "light-attracted",
-      "bioluminescent"
+      "bioluminescent",
+      "electric-fur"
     ]
   },
   {
     "pokemon": "Luxray",
     "tags": [
       "sleeping",
-      "single-eye"
+      "single-eye",
+      "sunlight-dependent"
     ]
   },
   {
     "pokemon": "Budew",
     "tags": [
       "flower-bud",
-      "color-changing"
+      "color-changing",
+      "sun-basking"
     ]
   },
   {
     "pokemon": "Roserade",
     "tags": [
       "poison-spikes",
-      "electric-cheeks"
+      "electric-cheeks",
+      "sweet-aroma"
     ]
   },
   {
     "pokemon": "Cranidos",
     "tags": [
       "dinosaur-like",
-      "big-jaw"
+      "big-jaw",
+      "three-headed"
     ]
   },
   {
@@ -2925,63 +3308,72 @@
     "pokemon": "Shieldon",
     "tags": [
       "camouflage",
-      "plankton-eater"
+      "plankton-eater",
+      "fossil-revived"
     ]
   },
   {
     "pokemon": "Bastiodon",
     "tags": [
       "sun-basking",
-      "sharp-teeth"
+      "sharp-teeth",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Burmy",
     "tags": [
       "invisible",
-      "sticky-silk"
+      "sticky-silk",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Wormadam",
     "tags": [
       "moss-covered",
-      "vestigial-wings"
+      "vestigial-wings",
+      "fluffy-fur"
     ]
   },
   {
     "pokemon": "Mothim",
     "tags": [
       "honey-producer",
-      "vestigial-wings"
+      "vestigial-wings",
+      "insectoid"
     ]
   },
   {
     "pokemon": "Combee",
     "tags": [
       "insectoid",
-      "three-headed"
+      "three-headed",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Vespiquen",
     "tags": [
       "insectoid",
-      "cheek-pouches"
+      "cheek-pouches",
+      "light-absorber"
     ]
   },
   {
     "pokemon": "Pachirisu",
     "tags": [
       "fluffy-tail",
-      "sleep-discharge"
+      "sleep-discharge",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Buizel",
     "tags": [
       "amphibious",
-      "vestigial-wings"
+      "vestigial-wings",
+      "fluffy-tail"
     ]
   },
   {
@@ -2996,77 +3388,88 @@
     "pokemon": "Cherubi",
     "tags": [
       "photosynthesis",
-      "two-headed"
+      "two-headed",
+      "leaf-tail"
     ]
   },
   {
     "pokemon": "Cherrim",
     "tags": [
       "sunlight-dependent",
-      "sweet-aroma"
+      "sweet-aroma",
+      "flower-bud"
     ]
   },
   {
     "pokemon": "Shellos",
     "tags": [
       "rock-shell",
-      "deep-sea"
+      "deep-sea",
+      "seaweed-eater"
     ]
   },
   {
     "pokemon": "Gastrodon",
     "tags": [
       "gaseous-body",
-      "seaweed-eater"
+      "seaweed-eater",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Ambipom",
     "tags": [
       "fluffy-tail",
-      "cheek-pouches"
+      "cheek-pouches",
+      "two-headed"
     ]
   },
   {
     "pokemon": "Drifloon",
     "tags": [
       "endocytosis",
-      "gaseous-body"
+      "gaseous-body",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Drifblim",
     "tags": [
       "moist-skin",
-      "gaseous-body"
+      "gaseous-body",
+      "polar-adapted"
     ]
   },
   {
     "pokemon": "Buneary",
     "tags": [
       "fluffy-tail",
-      "rabbit-like"
+      "rabbit-like",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Lopunny",
     "tags": [
       "fluffy-fur",
-      "clawed-legs"
+      "clawed-legs",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Mismagius",
     "tags": [
       "venomous",
-      "three-headed"
+      "three-headed",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Honchkrow",
     "tags": [
       "fluffy-tail",
-      "color-changing"
+      "color-changing",
+      "horned"
     ]
   },
   {
@@ -3081,63 +3484,72 @@
     "pokemon": "Purugly",
     "tags": [
       "fluffy-tail",
-      "mucus-coated"
+      "mucus-coated",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Chingling",
     "tags": [
       "venomous",
-      "singing-pokemon"
+      "singing-pokemon",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Stunky",
     "tags": [
       "fluffy-fur",
-      "acid-spitter"
+      "acid-spitter",
+      "muddy-habitat"
     ]
   },
   {
     "pokemon": "Skuntank",
     "tags": [
       "fluffy-tail",
-      "poison-powder"
+      "poison-powder",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Bronzor",
     "tags": [
       "bioluminescent",
-      "metallic-body"
+      "metallic-body",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Bronzong",
     "tags": [
       "sky-dweller",
-      "big-jaw"
+      "big-jaw",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Bonsly",
     "tags": [
       "stone-body",
-      "mucus-coated"
+      "mucus-coated",
+      "mushroom-like"
     ]
   },
   {
     "pokemon": "Mime Jr.",
     "tags": [
       "origin-forme",
-      "mucus-coated"
+      "mucus-coated",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Happiny",
     "tags": [
       "cheek-pouches",
-      "stone-body"
+      "stone-body",
+      "fluffy-tail"
     ]
   },
   {
@@ -3145,50 +3557,57 @@
     "tags": [
       "telepathic",
       "rabbit-like",
-      "aquatic",
-      "echolocation"
+      "water-bubble",
+      "echolocation",
+      "pond-dweller"
     ]
   },
   {
     "pokemon": "Spiritomb",
     "tags": [
       "rock-body",
-      "psychic-powers"
+      "psychic-powers",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Gible",
     "tags": [
       "keystone-species",
-      "gaseous-body"
+      "gaseous-body",
+      "big-jaw"
     ]
   },
   {
     "pokemon": "Gabite",
     "tags": [
       "sharp-teeth",
-      "bipedal"
+      "bipedal",
+      "plankton-eater"
     ]
   },
   {
     "pokemon": "Garchomp",
     "tags": [
       "clawed-legs",
-      "horned"
+      "horned",
+      "carnivore"
     ]
   },
   {
     "pokemon": "Munchlax",
     "tags": [
       "mucus-coated",
-      "big-jaw"
+      "big-jaw",
+      "carrion-eater"
     ]
   },
   {
     "pokemon": "Riolu",
     "tags": [
       "bioluminescent",
-      "aura-sense"
+      "aura-sense",
+      "ultra-beast"
     ]
   },
   {
@@ -3205,322 +3624,368 @@
     "pokemon": "Hippopotas",
     "tags": [
       "rock-body",
-      "herbivorous"
+      "herbivorous",
+      "muddy-habitat"
     ]
   },
   {
     "pokemon": "Hippowdon",
     "tags": [
       "dinosaur-like",
-      "clawed-paws"
+      "clawed-paws",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Skorupi",
     "tags": [
       "clawed-legs",
-      "insectivore"
+      "insectivore",
+      "kleptomaniac"
     ]
   },
   {
     "pokemon": "Drapion",
     "tags": [
       "venomous",
-      "clawed-legs"
+      "clawed-legs",
+      "moist-skin"
     ]
   },
   {
     "pokemon": "Croagunk",
     "tags": [
       "venomous",
-      "bioluminescent"
+      "bioluminescent",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Toxicroak",
     "tags": [
       "venomous",
-      "poison-powder"
+      "poison-powder",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Carnivine",
     "tags": [
       "carnivore",
-      "ruminant"
+      "ruminant",
+      "cellulose-diet"
     ]
   },
   {
     "pokemon": "Finneon",
     "tags": [
       "fish-like",
-      "vestigial-wings"
+      "vestigial-wings",
+      "camouflage"
     ]
   },
   {
     "pokemon": "Lumineon",
     "tags": [
       "light-attracted",
-      "larval-form"
+      "larval-form",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Mantyke",
     "tags": [
       "aquatic",
-      "extraterrestrial"
+      "extraterrestrial",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Snover",
     "tags": [
       "snow-dweller",
-      "galarian-form"
+      "galarian-form",
+      "berry-forager"
     ]
   },
   {
     "pokemon": "Abomasnow",
     "tags": [
       "ice-crystals",
-      "snow-eater"
+      "snow-eater",
+      "moss-covered"
     ]
   },
   {
     "pokemon": "Weavile",
     "tags": [
       "clawed-paws",
-      "frostbite-risk"
+      "frostbite-risk",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Magnezone",
     "tags": [
       "magnetic-spin",
-      "single-eye"
+      "single-eye",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Lickilicky",
     "tags": [
       "sharp-teeth",
-      "muddy-habitat"
+      "muddy-habitat",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Rhyperior",
     "tags": [
       "horned",
-      "armor-hide"
+      "armor-hide",
+      "rock-dweller"
     ]
   },
   {
     "pokemon": "Tangrowth",
     "tags": [
       "berry-diet",
-      "clawed-legs"
+      "clawed-legs",
+      "ruminant"
     ]
   },
   {
     "pokemon": "Electivire",
     "tags": [
       "electricity-generation",
-      "burrower"
+      "burrower",
+      "light-absorber"
     ]
   },
   {
     "pokemon": "Magmortar",
     "tags": [
       "fire-type",
-      "metallic-body"
+      "metallic-body",
+      "magnetic-spin"
     ]
   },
   {
     "pokemon": "Togekiss",
     "tags": [
       "totem-pokemon",
-      "vestigial-wings"
+      "vestigial-wings",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Yanmega",
     "tags": [
       "vestigial-wings",
-      "no-legs"
+      "no-legs",
+      "gentle-giant"
     ]
   },
   {
     "pokemon": "Leafeon",
     "tags": [
       "leaf-tail",
-      "photosynthesis"
+      "photosynthesis",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Glaceon",
     "tags": [
       "ice-crystals",
-      "joy-dust"
+      "joy-dust",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Gliscor",
     "tags": [
       "gluttonous",
-      "clawed-legs"
+      "clawed-legs",
+      "carnivorous"
     ]
   },
   {
     "pokemon": "Mamoswine",
     "tags": [
       "cold-adapted",
-      "algae-eater"
+      "algae-eater",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Porygon-Z",
     "tags": [
       "rock-body",
-      "z-power"
+      "z-power",
+      "dinosaur-like"
     ]
   },
   {
     "pokemon": "Gallade",
     "tags": [
       "ferocious",
-      "long-neck"
+      "long-neck",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Probopass",
     "tags": [
       "rock-body",
-      "cheek-sacs"
+      "cheek-sacs",
+      "magnetic-spin"
     ]
   },
   {
     "pokemon": "Dusknoir",
     "tags": [
       "dark-habitat",
-      "single-eye"
+      "single-eye",
+      "flame-tail"
     ]
   },
   {
     "pokemon": "Froslass",
     "tags": [
       "ice-crystals",
-      "flotation-sac"
+      "flotation-sac",
+      "frostbite-risk"
     ]
   },
   {
     "pokemon": "Rotom",
     "tags": [
       "insectoid",
-      "high-voltage"
+      "high-voltage",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Uxie",
     "tags": [
       "illusion-maker",
-      "extraterrestrial"
+      "extraterrestrial",
+      "lonely-spirit"
     ]
   },
   {
     "pokemon": "Mesprit",
     "tags": [
       "aura-sense",
-      "cheek-sacs"
+      "cheek-sacs",
+      "flame-sac"
     ]
   },
   {
     "pokemon": "Azelf",
     "tags": [
       "z-power",
-      "ice-crystals"
+      "ice-crystals",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Dialga",
     "tags": [
       "vestigial-wings",
-      "telepathy"
+      "telepathy",
+      "sharp-teeth"
     ]
   },
   {
     "pokemon": "Palkia",
     "tags": [
       "ancient-pokemon",
-      "ice-crystals"
+      "ice-crystals",
+      "endocytosis"
     ]
   },
   {
     "pokemon": "Heatran",
     "tags": [
       "heat-sensitive",
-      "volcano-dweller"
+      "volcano-dweller",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Regigigas",
     "tags": [
       "stone-body",
-      "ice-crystals"
+      "ice-crystals",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Giratina",
     "tags": [
       "fluffy-tail",
-      "hisuian-form"
+      "hisuian-form",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Cresselia",
     "tags": [
       "bioluminescent",
-      "vestigial-wings"
+      "vestigial-wings",
+      "night-sky"
     ]
   },
   {
     "pokemon": "Phione",
     "tags": [
       "stone-body",
-      "three-headed"
+      "three-headed",
+      "insectoid"
     ]
   },
   {
     "pokemon": "Manaphy",
     "tags": [
       "moss-covered",
-      "keystone-species"
+      "keystone-species",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Darkrai",
     "tags": [
       "dark-habitat",
-      "no-legs"
+      "no-legs",
+      "light-absorber"
     ]
   },
   {
     "pokemon": "Shaymin",
     "tags": [
       "sweet-aroma",
-      "mucus-coated"
+      "mucus-coated",
+      "flower-bud"
     ]
   },
   {
     "pokemon": "Arceus",
     "tags": [
       "horned",
-      "bioluminescent"
+      "bioluminescent",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Victini",
     "tags": [
       "vestigial-wings",
-      "rabbit-like"
+      "rabbit-like",
+      "bioluminescent"
     ]
   },
   {
@@ -3537,42 +4002,48 @@
     "pokemon": "Servine",
     "tags": [
       "photosynthesis",
-      "fluffy-tail"
+      "fluffy-tail",
+      "ruminant"
     ]
   },
   {
     "pokemon": "Serperior",
     "tags": [
       "forest-guardian",
-      "fluffy-tail"
+      "fluffy-tail",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Tepig",
     "tags": [
       "horned",
-      "tusked"
+      "tusked",
+      "venomous"
     ]
   },
   {
     "pokemon": "Pignite",
     "tags": [
       "rock-shell",
-      "heat-sensitive"
+      "heat-sensitive",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Emboar",
     "tags": [
       "flame-tail",
-      "clawed-legs"
+      "clawed-legs",
+      "electric-fur"
     ]
   },
   {
     "pokemon": "Oshawott",
     "tags": [
       "rock-shell",
-      "seaweed-eater"
+      "seaweed-eater",
+      "fluffy-tail"
     ]
   },
   {
@@ -3580,6 +4051,7 @@
     "tags": [
       "dew-drinker",
       "clawed-paws",
+      "long-neck",
       "burrower",
       "webbed-feet"
     ]
@@ -3588,14 +4060,16 @@
     "pokemon": "Samurott",
     "tags": [
       "clawed-paws",
-      "vestigial-wings"
+      "vestigial-wings",
+      "horned"
     ]
   },
   {
     "pokemon": "Patrat",
     "tags": [
       "keystone-species",
-      "clawed-paws"
+      "clawed-paws",
+      "cheek-sacs"
     ]
   },
   {
@@ -3610,21 +4084,24 @@
     "pokemon": "Lillipup",
     "tags": [
       "fluffy-fur",
-      "clawed-paws"
+      "clawed-paws",
+      "grass-eater"
     ]
   },
   {
     "pokemon": "Herdier",
     "tags": [
       "herd-behavior",
-      "fluffy-fur"
+      "fluffy-fur",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Stoutland",
     "tags": [
       "fluffy-fur",
-      "keystone-species"
+      "keystone-species",
+      "clawed-paws"
     ]
   },
   {
@@ -3632,6 +4109,7 @@
     "tags": [
       "clawed-paws",
       "feline",
+      "fluffy-fur",
       "carnivore"
     ]
   },
@@ -3649,7 +4127,8 @@
     "pokemon": "Pansage",
     "tags": [
       "mucus-coated",
-      "leaf-tail"
+      "leaf-tail",
+      "three-headed"
     ]
   },
   {
@@ -3666,21 +4145,24 @@
     "pokemon": "Pansear",
     "tags": [
       "flame-tail",
-      "tusked"
+      "tusked",
+      "moist-skin"
     ]
   },
   {
     "pokemon": "Simisear",
     "tags": [
       "flame-tail",
-      "mucus-coated"
+      "mucus-coated",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Panpour",
     "tags": [
       "water-type",
-      "mucus-coated"
+      "mucus-coated",
+      "moist-skin"
     ]
   },
   {
@@ -3696,427 +4178,488 @@
     "pokemon": "Munna",
     "tags": [
       "mucus-coated",
-      "dream-eater"
+      "dream-eater",
+      "sweet-aroma"
     ]
   },
   {
     "pokemon": "Musharna",
     "tags": [
       "dream-eater",
-      "mucus-coated"
+      "mucus-coated",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Pidove",
     "tags": [
       "piscivore",
-      "color-changing"
+      "color-changing",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Tranquill",
     "tags": [
       "dark-habitat",
-      "peaceful"
+      "peaceful",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Unfezant",
     "tags": [
       "avian",
-      "long-neck"
+      "long-neck",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Blitzle",
     "tags": [
       "electricity-generation",
-      "poison-spikes"
+      "poison-spikes",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Zebstrika",
     "tags": [
       "dark-type",
-      "clawed-legs"
+      "clawed-legs",
+      "algae-eater"
     ]
   },
   {
     "pokemon": "Roggenrola",
     "tags": [
       "rock-body",
-      "bioluminescent"
+      "bioluminescent",
+      "subterranean"
     ]
   },
   {
     "pokemon": "Boldore",
     "tags": [
       "rock-shell",
-      "bioluminescent"
+      "bioluminescent",
+      "diamond-hard"
     ]
   },
   {
     "pokemon": "Gigalith",
     "tags": [
       "gigantamax",
-      "stone-body"
+      "stone-body",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Woobat",
     "tags": [
       "insectivore",
-      "electric-cheeks"
+      "electric-cheeks",
+      "horned"
     ]
   },
   {
     "pokemon": "Swoobat",
     "tags": [
       "electric-tail",
-      "sleep-discharge"
+      "sleep-discharge",
+      "water-bubble"
     ]
   },
   {
     "pokemon": "Drilbur",
     "tags": [
       "clawed-feet",
-      "ultra-beast"
+      "ultra-beast",
+      "muddy-habitat"
     ]
   },
   {
     "pokemon": "Excadrill",
     "tags": [
       "electric-cheeks",
-      "mushroom-like"
+      "mushroom-like",
+      "metal-body"
     ]
   },
   {
     "pokemon": "Audino",
     "tags": [
       "horned",
-      "sweet-aroma"
+      "sweet-aroma",
+      "echolocation"
     ]
   },
   {
     "pokemon": "Timburr",
     "tags": [
       "timid",
-      "living-fossil"
+      "living-fossil",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Gurdurr",
     "tags": [
       "muscular",
-      "mucus-coated"
+      "mucus-coated",
+      "horned"
     ]
   },
   {
     "pokemon": "Conkeldurr",
     "tags": [
       "mechanical",
-      "mucus-coated"
+      "mucus-coated",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Tympole",
     "tags": [
       "horned",
-      "dark-habitat"
+      "dark-habitat",
+      "singing-pokemon"
     ]
   },
   {
     "pokemon": "Palpitoad",
     "tags": [
       "dinosaur-like",
-      "cheek-sacs"
+      "cheek-sacs",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Seismitoad",
     "tags": [
       "venomous",
-      "metallic-body"
+      "metallic-body",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Throh",
     "tags": [
       "horned",
-      "no-legs"
+      "no-legs",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Sawk",
     "tags": [
       "muscular",
-      "webbed-feet"
+      "webbed-feet",
+      "no-legs"
     ]
   },
   {
     "pokemon": "Sewaddle",
     "tags": [
       "larval-form",
-      "mucus-coated"
+      "mucus-coated",
+      "leaf-eater"
     ]
   },
   {
     "pokemon": "Swadloon",
     "tags": [
       "camouflage",
-      "leaf-tail"
+      "leaf-tail",
+      "light-absorber"
     ]
   },
   {
     "pokemon": "Leavanny",
     "tags": [
       "insectoid",
-      "sticky-silk"
+      "sticky-silk",
+      "leaf-tail"
     ]
   },
   {
     "pokemon": "Venipede",
     "tags": [
       "venomous",
-      "clawed-legs"
+      "clawed-legs",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Whirlipede",
     "tags": [
       "venomous",
-      "vestigial-wings"
+      "vestigial-wings",
+      "plankton-eater"
     ]
   },
   {
     "pokemon": "Scolipede",
     "tags": [
       "venomous",
-      "clawed-legs"
+      "clawed-legs",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Cottonee",
     "tags": [
       "swamp-dweller",
-      "cellulose-diet"
+      "cellulose-diet",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Whimsicott",
     "tags": [
       "wind-dependent",
-      "prankster"
+      "prankster",
+      "sticky-silk"
     ]
   },
   {
     "pokemon": "Petilil",
     "tags": [
       "flower-bud",
-      "long-neck"
+      "long-neck",
+      "light-sensitive"
     ]
   },
   {
     "pokemon": "Lilligant",
     "tags": [
       "flower-bud",
-      "dark-type"
+      "dark-type",
+      "soil-eater"
     ]
   },
   {
     "pokemon": "Basculin",
     "tags": [
       "horned",
-      "sun-basking"
+      "sun-basking",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Sandile",
     "tags": [
       "desert-dweller",
-      "clawed-paws"
+      "clawed-paws",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Krokorok",
     "tags": [
       "kleptomaniac",
-      "clawed-legs"
+      "clawed-legs",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Krookodile",
     "tags": [
       "kleptomaniac",
-      "clawed-legs"
+      "clawed-legs",
+      "poison-spikes"
     ]
   },
   {
     "pokemon": "Darumaka",
     "tags": [
       "sleep-flame",
-      "moist-skin"
+      "moist-skin",
+      "semiaquatic"
     ]
   },
   {
     "pokemon": "Darmanitan",
     "tags": [
       "skittish",
-      "long-neck"
+      "long-neck",
+      "flame-tail"
     ]
   },
   {
     "pokemon": "Maractus",
     "tags": [
       "piscivore",
-      "cheek-sacs"
+      "cheek-sacs",
+      "flame-sac"
     ]
   },
   {
     "pokemon": "Dwebble",
     "tags": [
       "rock-shell",
-      "larval-form"
+      "larval-form",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Crustle",
     "tags": [
       "rock-shell",
-      "seaweed-eater"
+      "seaweed-eater",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Scraggy",
     "tags": [
       "clawed-legs",
-      "mucus-coated"
+      "mucus-coated",
+      "scavenger"
     ]
   },
   {
     "pokemon": "Scrafty",
     "tags": [
       "clawed-legs",
-      "moist-skin"
+      "moist-skin",
+      "scavenger"
     ]
   },
   {
     "pokemon": "Sigilyph",
     "tags": [
       "light-attracted",
-      "vestigial-wings"
+      "vestigial-wings",
+      "poison-spikes"
     ]
   },
   {
     "pokemon": "Yamask",
     "tags": [
       "camouflage",
-      "lonely-spirit"
+      "lonely-spirit",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Cofagrigus",
     "tags": [
       "living-fossil",
-      "mucus-coated"
+      "mucus-coated",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Tirtouga",
     "tags": [
       "living-fossil",
-      "venomous"
+      "venomous",
+      "endocytosis"
     ]
   },
   {
     "pokemon": "Carracosta",
     "tags": [
       "carrion-eater",
-      "rock-shell"
+      "rock-shell",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Archen",
     "tags": [
       "vestigial-wings",
-      "no-legs"
+      "no-legs",
+      "avian"
     ]
   },
   {
     "pokemon": "Archeops",
     "tags": [
       "vestigial-wings",
-      "clawed-feet"
+      "clawed-feet",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Trubbish",
     "tags": [
       "toxic-dust",
-      "gaseous-body"
+      "gaseous-body",
+      "mushroom-like"
     ]
   },
   {
     "pokemon": "Garbodor",
     "tags": [
       "toxic-dust",
-      "jaw-crusher"
+      "jaw-crusher",
+      "venomous"
     ]
   },
   {
     "pokemon": "Zorua",
     "tags": [
       "hisuian-form",
-      "z-power"
+      "z-power",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Zoroark",
     "tags": [
       "z-power",
-      "dinosaur-like"
+      "dinosaur-like",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Minccino",
     "tags": [
       "fluffy-tail",
-      "mucus-coated"
+      "mucus-coated",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Cinccino",
     "tags": [
       "fur-covered",
-      "mucus-coated"
+      "mucus-coated",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Gothita",
     "tags": [
       "silent",
-      "electric-fur"
+      "electric-fur",
+      "venomous"
     ]
   },
   {
     "pokemon": "Gothorita",
     "tags": [
       "dark-habitat",
-      "metal-body"
+      "metal-body",
+      "dinosaur-like"
     ]
   },
   {
     "pokemon": "Gothitelle",
     "tags": [
       "metallic-body",
-      "dream-eater"
+      "dream-eater",
+      "armor-hide"
     ]
   },
   {
     "pokemon": "Solosis",
     "tags": [
       "bioluminescent",
-      "solitary"
+      "solitary",
+      "endocytosis"
     ]
   },
   {
@@ -4132,385 +4675,440 @@
     "pokemon": "Reuniclus",
     "tags": [
       "rock-body",
-      "psychic-powers"
+      "psychic-powers",
+      "horned"
     ]
   },
   {
     "pokemon": "Ducklett",
     "tags": [
       "swamp-dweller",
-      "larval-form"
+      "larval-form",
+      "aquatic-diet"
     ]
   },
   {
     "pokemon": "Swanna",
     "tags": [
       "avian",
-      "long-neck"
+      "long-neck",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Vanillite",
     "tags": [
       "ice-crystals",
-      "snow-covered"
+      "snow-covered",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Vanillish",
     "tags": [
       "ice-crystals",
-      "thermoregulation"
+      "thermoregulation",
+      "snow-covered"
     ]
   },
   {
     "pokemon": "Vanilluxe",
     "tags": [
       "ice-crystals",
-      "two-headed"
+      "two-headed",
+      "thermoregulation"
     ]
   },
   {
     "pokemon": "Deerling",
     "tags": [
       "horned",
-      "herbivorous"
+      "herbivorous",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Sawsbuck",
     "tags": [
       "fur-covered",
-      "insectivore"
+      "insectivore",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Emolga",
     "tags": [
       "electric-cheeks",
-      "dark-habitat"
+      "dark-habitat",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Karrablast",
     "tags": [
       "venomous",
-      "horned"
+      "horned",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Escavalier",
     "tags": [
       "venomous",
-      "vestigial-wings"
+      "vestigial-wings",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Foongus",
     "tags": [
       "mushroom-like",
-      "mucus-coated"
+      "mucus-coated",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Amoonguss",
     "tags": [
       "cheek-pouches",
-      "mushroom-like"
+      "mushroom-like",
+      "insectivorous"
     ]
   },
   {
     "pokemon": "Frillish",
     "tags": [
       "venomous",
-      "bioluminescent"
+      "bioluminescent",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Jellicent",
     "tags": [
       "bioluminescent",
-      "seaweed-eater"
+      "seaweed-eater",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Alomomola",
     "tags": [
       "algae-eater",
-      "alolan-form"
+      "alolan-form",
+      "aquatic-swimmer"
     ]
   },
   {
     "pokemon": "Joltik",
     "tags": [
       "electric-cheeks",
-      "clawed-feet"
+      "clawed-feet",
+      "single-eye"
     ]
   },
   {
     "pokemon": "Galvantula",
     "tags": [
       "single-eye",
-      "galarian-form"
+      "galarian-form",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Ferroseed",
     "tags": [
       "moss-covered",
-      "rock-salt"
+      "rock-salt",
+      "burrower"
     ]
   },
   {
     "pokemon": "Ferrothorn",
     "tags": [
       "metal-absorber",
-      "burrower"
+      "burrower",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Klink",
     "tags": [
       "kleptomaniac",
-      "metal-body"
+      "metal-body",
+      "tunnel-digger"
     ]
   },
   {
     "pokemon": "Klang",
     "tags": [
       "horned",
-      "sharp-teeth"
+      "sharp-teeth",
+      "magnetic-spin"
     ]
   },
   {
     "pokemon": "Klinklang",
     "tags": [
       "kleptomaniac",
-      "color-changing"
+      "color-changing",
+      "tunnel-digger"
     ]
   },
   {
     "pokemon": "Tynamo",
     "tags": [
       "aquatic",
-      "electricity-generation"
+      "electricity-generation",
+      "dinosaur-like"
     ]
   },
   {
     "pokemon": "Eelektrik",
     "tags": [
       "fish-eater",
-      "electric-fur"
+      "electric-fur",
+      "amphibious"
     ]
   },
   {
     "pokemon": "Eelektross",
     "tags": [
       "venomous",
-      "electric-tail"
+      "electric-tail",
+      "amphibious"
     ]
   },
   {
     "pokemon": "Elgyem",
     "tags": [
       "extraterrestrial",
-      "lagomorph"
+      "lagomorph",
+      "mega-evolve"
     ]
   },
   {
     "pokemon": "Beheeyem",
     "tags": [
       "endocytosis",
-      "single-eye"
+      "single-eye",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Litwick",
     "tags": [
       "sleep-flame",
-      "light-absorber"
+      "light-absorber",
+      "living-fossil"
     ]
   },
   {
     "pokemon": "Lampent",
     "tags": [
       "light-attracted",
-      "flame-tail"
+      "flame-tail",
+      "lonely-spirit"
     ]
   },
   {
     "pokemon": "Chandelure",
     "tags": [
       "flame-sac",
-      "ghost-type"
+      "ghost-type",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Axew",
     "tags": [
       "long-neck",
-      "tusked"
+      "tusked",
+      "horned"
     ]
   },
   {
     "pokemon": "Fraxure",
     "tags": [
       "tusked",
-      "rock-shell"
+      "rock-shell",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Haxorus",
     "tags": [
       "tusked",
-      "fluffy-tail"
+      "fluffy-tail",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Cubchoo",
     "tags": [
       "mucus-coated",
-      "mushroom-like"
+      "mushroom-like",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Beartic",
     "tags": [
       "snow-eater",
-      "clawed-legs"
+      "clawed-legs",
+      "polar-adapted"
     ]
   },
   {
     "pokemon": "Cryogonal",
     "tags": [
       "ice-crystals",
-      "snow-covered"
+      "snow-covered",
+      "thermoregulation"
     ]
   },
   {
     "pokemon": "Shelmet",
     "tags": [
       "rock-shell",
-      "venomous"
+      "venomous",
+      "larval-form"
     ]
   },
   {
     "pokemon": "Accelgor",
     "tags": [
       "vestigial-wings",
-      "electric-cheeks"
+      "electric-cheeks",
+      "carrion-eater"
     ]
   },
   {
     "pokemon": "Stunfisk",
     "tags": [
       "camouflage",
-      "stone-body"
+      "stone-body",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Mienfoo",
     "tags": [
       "vestigial-wings",
-      "light-absorber"
+      "light-absorber",
+      "piscivore"
     ]
   },
   {
     "pokemon": "Mienshao",
     "tags": [
       "fluffy-fur",
-      "clawed-legs"
+      "clawed-legs",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Druddigon",
     "tags": [
       "piscivore",
-      "mushroom-like"
+      "mushroom-like",
+      "amphibious"
     ]
   },
   {
     "pokemon": "Golett",
     "tags": [
       "living-fossil",
-      "light-absorber"
+      "light-absorber",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Golurk",
     "tags": [
       "curious",
-      "light-absorber"
+      "light-absorber",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Pawniard",
     "tags": [
       "iron-eater",
-      "stone-body"
+      "stone-body",
+      "camouflage"
     ]
   },
   {
     "pokemon": "Bisharp",
     "tags": [
       "cheek-sacs",
-      "bipedal"
+      "bipedal",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Bouffalant",
     "tags": [
       "fluffy-tail",
-      "horned"
+      "horned",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Rufflet",
     "tags": [
       "fluffy-tail",
-      "venomous"
+      "venomous",
+      "dream-eater"
     ]
   },
   {
     "pokemon": "Braviary",
     "tags": [
       "horned",
-      "galarian-form"
+      "galarian-form",
+      "moss-covered"
     ]
   },
   {
     "pokemon": "Vullaby",
     "tags": [
       "long-neck",
-      "carnivorous"
+      "carnivorous",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Mandibuzz",
     "tags": [
       "cheek-pouches",
-      "living-fossil"
+      "living-fossil",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Heatmor",
     "tags": [
       "heat-sensitive",
-      "flame-tail"
+      "flame-tail",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Durant",
     "tags": [
       "larval-form",
-      "nest-guardian"
+      "nest-guardian",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Deino",
     "tags": [
       "semiaquatic",
-      "living-fossil"
+      "living-fossil",
+      "clawed-paws"
     ]
   },
   {
@@ -4525,763 +5123,872 @@
     "pokemon": "Hydreigon",
     "tags": [
       "three-headed",
-      "dark-type"
+      "dark-type",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Larvesta",
     "tags": [
       "larval-form",
-      "flame-tail"
+      "flame-tail",
+      "carnivore"
     ]
   },
   {
     "pokemon": "Volcarona",
     "tags": [
       "flame-sac",
-      "dark-habitat"
+      "dark-habitat",
+      "photosynthesis"
     ]
   },
   {
     "pokemon": "Cobalion",
     "tags": [
       "metal-body",
-      "ruminant"
+      "ruminant",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Terrakion",
     "tags": [
       "dinosaur-like",
-      "fluffy-fur"
+      "fluffy-fur",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Virizion",
     "tags": [
       "quadrupedal",
-      "fluffy-fur"
+      "fluffy-fur",
+      "horned"
     ]
   },
   {
     "pokemon": "Tornadus",
     "tags": [
       "clawed-legs",
-      "color-changing"
+      "color-changing",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Thundurus",
     "tags": [
       "fluffy-tail",
-      "dinosaur-like"
+      "dinosaur-like",
+      "horned"
     ]
   },
   {
     "pokemon": "Reshiram",
     "tags": [
       "long-neck",
-      "bioluminescent"
+      "bioluminescent",
+      "single-eye"
     ]
   },
   {
     "pokemon": "Zekrom",
     "tags": [
       "cheek-pouches",
-      "dragon-type"
+      "dragon-type",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Landorus",
     "tags": [
       "land-hunter",
-      "horned"
+      "horned",
+      "moist-skin"
     ]
   },
   {
     "pokemon": "Kyurem",
     "tags": [
       "vestigial-wings",
-      "ice-crystals"
+      "ice-crystals",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Keldeo",
     "tags": [
       "flame-tail",
-      "kleptomaniac"
+      "kleptomaniac",
+      "fluffy-fur"
     ]
   },
   {
     "pokemon": "Meloetta",
     "tags": [
       "singing-pokemon",
-      "bioluminescent"
+      "bioluminescent",
+      "honey-producer"
     ]
   },
   {
     "pokemon": "Genesect",
     "tags": [
       "clawed-legs",
-      "bioluminescent"
+      "bioluminescent",
+      "fossil-revived"
     ]
   },
   {
     "pokemon": "Chespin",
     "tags": [
       "clawed-legs",
-      "acid-digestion"
+      "acid-digestion",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Quilladin",
     "tags": [
       "clawed-legs",
-      "mucus-coated"
+      "mucus-coated",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Chesnaught",
     "tags": [
       "clawed-legs",
-      "gaseous-body"
+      "gaseous-body",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Fennekin",
     "tags": [
       "fluffy-fur",
-      "clawed-paws"
+      "clawed-paws",
+      "fire-breath"
     ]
   },
   {
     "pokemon": "Braixen",
     "tags": [
       "clawed-paws",
-      "flame-tail"
+      "flame-tail",
+      "fluffy-fur"
     ]
   },
   {
     "pokemon": "Delphox",
     "tags": [
       "fluffy-fur",
-      "three-headed"
+      "three-headed",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Froakie",
     "tags": [
       "water-bubble",
-      "quadrupedal"
+      "quadrupedal",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Frogadier",
     "tags": [
       "pond-dweller",
-      "color-changing"
+      "color-changing",
+      "metal-absorber"
     ]
   },
   {
     "pokemon": "Greninja",
     "tags": [
       "bipedal",
-      "webbed-feet"
+      "webbed-feet",
+      "single-eye"
     ]
   },
   {
     "pokemon": "Bunnelby",
     "tags": [
       "fluffy-tail",
-      "rabbit-like"
+      "rabbit-like",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Diggersby",
     "tags": [
       "claw-digger",
-      "fluffy-fur"
+      "fluffy-fur",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Fletchling",
     "tags": [
       "fluffy-tail",
-      "flotation-sac"
+      "flotation-sac",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Fletchinder",
     "tags": [
       "flame-tail",
-      "plankton-eater"
+      "plankton-eater",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Talonflame",
     "tags": [
       "vestigial-wings",
-      "apex-predator"
+      "apex-predator",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Scatterbug",
     "tags": [
       "poison-powder",
-      "fluffy-tail"
+      "fluffy-tail",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Spewpa",
     "tags": [
       "mucus-coated",
-      "living-fossil"
+      "living-fossil",
+      "poison-powder"
     ]
   },
   {
     "pokemon": "Vivillon",
     "tags": [
       "dark-habitat",
-      "vestigial-wings"
+      "vestigial-wings",
+      "venomous"
     ]
   },
   {
     "pokemon": "Litleo",
     "tags": [
       "light-attracted",
-      "clawed-legs"
+      "clawed-legs",
+      "moss-covered"
     ]
   },
   {
     "pokemon": "Pyroar",
     "tags": [
       "flame-tail",
-      "clawed-legs"
+      "clawed-legs",
+      "fur-covered"
     ]
   },
   {
     "pokemon": "Flabébé",
     "tags": [
       "fairy-type",
-      "flower-bud"
+      "flower-bud",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Floette",
     "tags": [
       "flotation-sac",
-      "flower-bud"
+      "flower-bud",
+      "flame-tail"
     ]
   },
   {
     "pokemon": "Florges",
     "tags": [
       "flower-bud",
-      "flotation-sac"
+      "flotation-sac",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Skiddo",
     "tags": [
       "skittish",
-      "muddy-habitat"
+      "muddy-habitat",
+      "snow-covered"
     ]
   },
   {
     "pokemon": "Gogoat",
     "tags": [
       "horned",
-      "fur-covered"
+      "fur-covered",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Pancham",
     "tags": [
       "piscivore",
-      "three-headed"
+      "three-headed",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Pangoro",
     "tags": [
       "clawed-paws",
-      "camouflage"
+      "camouflage",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Furfrou",
     "tags": [
       "fluffy-fur",
-      "gentle-giant"
+      "gentle-giant",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Espurr",
     "tags": [
       "bioluminescent",
-      "electric-fur"
+      "electric-fur",
+      "telepathic"
     ]
   },
   {
     "pokemon": "Meowstic",
     "tags": [
       "bipedal",
-      "bioluminescent"
+      "bioluminescent",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Honedge",
     "tags": [
       "sharp-teeth",
-      "metallic-body"
+      "metallic-body",
+      "sticky-silk"
     ]
   },
   {
     "pokemon": "Doublade",
     "tags": [
       "omnivore",
-      "mucus-coated"
+      "mucus-coated",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Aegislash",
     "tags": [
       "fierce",
-      "electric-fur"
+      "electric-fur",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Spritzee",
     "tags": [
       "sweet-scent",
-      "living-fossil"
+      "living-fossil",
+      "totem-pokemon"
     ]
   },
   {
     "pokemon": "Aromatisse",
     "tags": [
       "sweet-aroma",
-      "electric-fur"
+      "electric-fur",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Swirlix",
     "tags": [
       "fluffy-tail",
-      "venomous"
+      "venomous",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Slurpuff",
     "tags": [
       "clawed-paws",
-      "sweet-scent"
+      "sweet-scent",
+      "fluffy-fur"
     ]
   },
   {
     "pokemon": "Inkay",
     "tags": [
       "venomous",
-      "light-absorber"
+      "light-absorber",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Malamar",
     "tags": [
       "bioluminescent",
-      "lake-guardian"
+      "lake-guardian",
+      "galarian-form"
     ]
   },
   {
     "pokemon": "Binacle",
     "tags": [
       "amphibious",
-      "plankton-eater"
+      "plankton-eater",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Barbaracle",
     "tags": [
       "clawed-legs",
-      "single-eye"
+      "single-eye",
+      "seaweed-eater"
     ]
   },
   {
     "pokemon": "Skrelp",
     "tags": [
       "seaweed-eater",
-      "aquatic-swimmer"
+      "aquatic-swimmer",
+      "living-fossil"
     ]
   },
   {
     "pokemon": "Dragalge",
     "tags": [
       "venomous",
-      "seaweed-eater"
+      "seaweed-eater",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Clauncher",
     "tags": [
       "clawed-legs",
-      "seaweed-eater"
+      "seaweed-eater",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Clawitzer",
     "tags": [
       "clawed-paws",
-      "mushroom-like"
+      "mushroom-like",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Helioptile",
     "tags": [
       "sunlight-dependent",
-      "dinosaur-like"
+      "dinosaur-like",
+      "electricity-generation"
     ]
   },
   {
     "pokemon": "Heliolisk",
     "tags": [
       "sun-powered",
-      "electricity-generation"
+      "electricity-generation",
+      "hisuian-form"
     ]
   },
   {
     "pokemon": "Tyrunt",
     "tags": [
       "dinosaur-like",
-      "horned"
+      "horned",
+      "big-jaw"
     ]
   },
   {
     "pokemon": "Tyrantrum",
     "tags": [
       "dinosaur-like",
-      "big-jaw"
+      "big-jaw",
+      "venomous"
     ]
   },
   {
     "pokemon": "Amaura",
     "tags": [
       "dinosaur-like",
-      "ice-crystals"
+      "ice-crystals",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Aurorus",
     "tags": [
       "ice-crystals",
-      "dinosaur-like"
+      "dinosaur-like",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Sylveon",
     "tags": [
       "fluffy-tail",
-      "clawed-legs"
+      "clawed-legs",
+      "aura-sense"
     ]
   },
   {
     "pokemon": "Hawlucha",
     "tags": [
       "vestigial-wings",
-      "single-eye"
+      "single-eye",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Dedenne",
     "tags": [
       "tusked",
-      "mucus-coated"
+      "mucus-coated",
+      "electric-fur"
     ]
   },
   {
     "pokemon": "Carbink",
     "tags": [
       "metallic-body",
-      "carnivore"
+      "carnivore",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Goomy",
     "tags": [
       "horned",
-      "moist-skin"
+      "moist-skin",
+      "toxic-dust"
     ]
   },
   {
     "pokemon": "Sliggoo",
     "tags": [
       "mucus-coated",
-      "single-eye"
+      "single-eye",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Goodra",
     "tags": [
       "horned",
-      "dark-habitat"
+      "dark-habitat",
+      "semiaquatic"
     ]
   },
   {
     "pokemon": "Klefki",
     "tags": [
       "kleptomaniac",
-      "metallic-body"
+      "metallic-body",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Phantump",
     "tags": [
       "living-fossil",
-      "acid-digestion"
+      "acid-digestion",
+      "leaf-tail"
     ]
   },
   {
     "pokemon": "Trevenant",
     "tags": [
       "forest-guardian",
-      "metal-body"
+      "metal-body",
+      "venomous"
     ]
   },
   {
     "pokemon": "Pumpkaboo",
     "tags": [
       "sun-basking",
-      "mushroom-like"
+      "mushroom-like",
+      "fairy-type"
     ]
   },
   {
     "pokemon": "Gourgeist",
     "tags": [
       "mushroom-like",
-      "cheek-pouches"
+      "cheek-pouches",
+      "horned"
     ]
   },
   {
     "pokemon": "Bergmite",
     "tags": [
       "ice-crystals",
-      "vestigial-wings"
+      "vestigial-wings",
+      "cold-adapted"
     ]
   },
   {
     "pokemon": "Avalugg",
     "tags": [
       "ice-crystals",
-      "clawed-legs"
+      "clawed-legs",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Noibat",
     "tags": [
       "dark-habitat",
-      "mucus-coated"
+      "mucus-coated",
+      "insectoid"
     ]
   },
   {
     "pokemon": "Noivern",
     "tags": [
       "dark-type",
-      "fluffy-tail"
+      "fluffy-tail",
+      "flower-bud"
     ]
   },
   {
     "pokemon": "Xerneas",
     "tags": [
       "living-fossil",
-      "single-eye"
+      "single-eye",
+      "leaf-tail"
     ]
   },
   {
     "pokemon": "Yveltal",
     "tags": [
       "vestigial-wings",
-      "electric-cheeks"
+      "electric-cheeks",
+      "dream-eater"
     ]
   },
   {
     "pokemon": "Zygarde",
     "tags": [
       "z-power",
-      "bioluminescent"
+      "bioluminescent",
+      "nest-guardian"
     ]
   },
   {
     "pokemon": "Diancie",
     "tags": [
       "stone-body",
-      "horned"
+      "horned",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Hoopa",
     "tags": [
       "horned",
-      "bioluminescent"
+      "bioluminescent",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Volcanion",
     "tags": [
       "clawed-legs",
-      "bioluminescent"
+      "bioluminescent",
+      "volcano-dweller"
     ]
   },
   {
     "pokemon": "Rowlet",
     "tags": [
       "nocturnal",
-      "owl-like"
+      "owl-like",
+      "leaf-eater"
     ]
   },
   {
     "pokemon": "Dartrix",
     "tags": [
       "avian",
-      "venomous"
+      "venomous",
+      "flower-bud"
     ]
   },
   {
     "pokemon": "Decidueye",
     "tags": [
       "owl-like",
-      "vestigial-wings"
+      "vestigial-wings",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Litten",
     "tags": [
       "fluffy-fur",
-      "clawed-paws"
+      "clawed-paws",
+      "light-sensitive"
     ]
   },
   {
     "pokemon": "Torracat",
     "tags": [
       "fluffy-fur",
-      "keystone-species"
+      "keystone-species",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Incineroar",
     "tags": [
       "flame-tail",
-      "mucus-coated"
+      "mucus-coated",
+      "rock-body"
     ]
   },
   {
     "pokemon": "Popplio",
     "tags": [
       "water-bubble",
-      "flotation-sac"
+      "flotation-sac",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Brionne",
     "tags": [
       "bipedal",
-      "light-absorber"
+      "light-absorber",
+      "flame-tail"
     ]
   },
   {
     "pokemon": "Primarina",
     "tags": [
       "fish-like",
-      "long-tail"
+      "long-tail",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Pikipek",
     "tags": [
       "stone-body",
-      "long-neck"
+      "long-neck",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Trumbeak",
     "tags": [
       "fluffy-tail",
-      "dark-habitat"
+      "dark-habitat",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Toucannon",
     "tags": [
       "totem-pokemon",
-      "heat-sensitive"
+      "heat-sensitive",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Yungoos",
     "tags": [
       "herbivorous",
-      "stone-body"
+      "stone-body",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Gumshoos",
     "tags": [
       "clawed-legs",
-      "sharp-teeth"
+      "sharp-teeth",
+      "ruminant"
     ]
   },
   {
     "pokemon": "Grubbin",
     "tags": [
       "insectivore",
-      "clawed-legs"
+      "clawed-legs",
+      "big-jaw"
     ]
   },
   {
     "pokemon": "Charjabug",
     "tags": [
       "insectivorous",
-      "stone-body"
+      "stone-body",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Vikavolt",
     "tags": [
       "vestigial-wings",
-      "high-voltage"
+      "high-voltage",
+      "mushroom-like"
     ]
   },
   {
     "pokemon": "Crabrawler",
     "tags": [
       "larval-form",
-      "rock-shell"
+      "rock-shell",
+      "venomous"
     ]
   },
   {
     "pokemon": "Crabominable",
     "tags": [
       "clawed-legs",
-      "larval-form"
+      "larval-form",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Oricorio",
     "tags": [
       "avian",
-      "color-changing"
+      "color-changing",
+      "larval-form"
     ]
   },
   {
     "pokemon": "Cutiefly",
     "tags": [
       "insect-diet",
-      "vestigial-wings"
+      "vestigial-wings",
+      "flower-bud"
     ]
   },
   {
     "pokemon": "Ribombee",
     "tags": [
       "vestigial-wings",
-      "berry-forager"
+      "berry-forager",
+      "night-sky"
     ]
   },
   {
@@ -5298,189 +6005,216 @@
     "pokemon": "Lycanroc",
     "tags": [
       "z-power",
-      "slow-moving"
+      "slow-moving",
+      "night-active"
     ]
   },
   {
     "pokemon": "Wishiwashi",
     "tags": [
       "hisuian-form",
-      "hover-capable"
+      "hover-capable",
+      "two-headed"
     ]
   },
   {
     "pokemon": "Mareanie",
     "tags": [
       "amphibious",
-      "closed-eyes"
+      "closed-eyes",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Toxapex",
     "tags": [
       "totem-pokemon",
-      "clawed-legs"
+      "clawed-legs",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Mudbray",
     "tags": [
       "muddy-habitat",
-      "horned"
+      "horned",
+      "ruminant"
     ]
   },
   {
     "pokemon": "Mudsdale",
     "tags": [
       "muddy-habitat",
-      "fluffy-tail"
+      "fluffy-tail",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Dewpider",
     "tags": [
       "dew-drinker",
-      "webbed-feet"
+      "webbed-feet",
+      "water-bubble"
     ]
   },
   {
     "pokemon": "Araquanid",
     "tags": [
       "water-bubble",
-      "venomous"
+      "venomous",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Fomantis",
     "tags": [
       "photosynthesis",
-      "leaf-tail"
+      "leaf-tail",
+      "venomous"
     ]
   },
   {
     "pokemon": "Lurantis",
     "tags": [
       "light-attracted",
-      "mucus-coated"
+      "mucus-coated",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Morelull",
     "tags": [
       "mushroom-like",
-      "bioluminescent"
+      "bioluminescent",
+      "algae-eater"
     ]
   },
   {
     "pokemon": "Shiinotic",
     "tags": [
       "mushroom-like",
-      "bioluminescent"
+      "bioluminescent",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Salandit",
     "tags": [
       "horned",
-      "photosynthesis"
+      "photosynthesis",
+      "poison-spikes"
     ]
   },
   {
     "pokemon": "Salazzle",
     "tags": [
       "hisuian-form",
-      "mucus-coated"
+      "mucus-coated",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Stufful",
     "tags": [
       "fur-covered",
-      "stone-body"
+      "stone-body",
+      "horned"
     ]
   },
   {
     "pokemon": "Bewear",
     "tags": [
       "clawed-paws",
-      "camouflage"
+      "camouflage",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Bounsweet",
     "tags": [
       "sweet-aroma",
-      "gaseous-body"
+      "gaseous-body",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Steenee",
     "tags": [
       "sweet-aroma",
-      "clawed-legs"
+      "clawed-legs",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Tsareena",
     "tags": [
       "clawed-legs",
-      "moss-covered"
+      "moss-covered",
+      "galarian-form"
     ]
   },
   {
     "pokemon": "Comfey",
     "tags": [
       "flower-bud",
-      "color-changing"
+      "color-changing",
+      "berry-eater"
     ]
   },
   {
     "pokemon": "Oranguru",
     "tags": [
       "horned",
-      "tropical"
+      "tropical",
+      "omnivorous"
     ]
   },
   {
     "pokemon": "Passimian",
     "tags": [
       "mucus-coated",
-      "vestigial-wings"
+      "vestigial-wings",
+      "hisuian-form"
     ]
   },
   {
     "pokemon": "Wimpod",
     "tags": [
       "curious",
-      "clawed-legs"
+      "clawed-legs",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Golisopod",
     "tags": [
       "clawed-legs",
-      "vestigial-wings"
+      "vestigial-wings",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Sandygast",
     "tags": [
       "stone-body",
-      "soil-eater"
+      "soil-eater",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Palossand",
     "tags": [
       "rock-shell",
-      "flame-tail"
+      "flame-tail",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Pyukumuku",
     "tags": [
       "mucus-coated",
-      "hisuian-form"
+      "hisuian-form",
+      "gaseous-body"
     ]
   },
   {
@@ -5488,6 +6222,7 @@
     "tags": [
       "closed-eyes",
       "long-neck",
+      "ghost-type",
       "dark-type"
     ]
   },
@@ -5495,119 +6230,136 @@
     "pokemon": "Silvally",
     "tags": [
       "venomous",
-      "electric-cheeks"
+      "electric-cheeks",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Minior",
     "tags": [
       "toxic-dust",
-      "gentle-giant"
+      "gentle-giant",
+      "metal-absorber"
     ]
   },
   {
     "pokemon": "Komala",
     "tags": [
       "kleptomaniac",
-      "moist-skin"
+      "moist-skin",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Turtonator",
     "tags": [
       "tusked",
-      "dinosaur-like"
+      "dinosaur-like",
+      "rock-shell"
     ]
   },
   {
     "pokemon": "Togedemaru",
     "tags": [
       "totem-pokemon",
-      "electric-fur"
+      "electric-fur",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Mimikyu",
     "tags": [
       "closed-eyes",
-      "fluffy-fur"
+      "fluffy-fur",
+      "light-absorber"
     ]
   },
   {
     "pokemon": "Bruxish",
     "tags": [
       "amphibious",
-      "color-changing"
+      "color-changing",
+      "venomous"
     ]
   },
   {
     "pokemon": "Drampa",
     "tags": [
       "clawed-legs",
-      "bioluminescent"
+      "bioluminescent",
+      "two-headed"
     ]
   },
   {
     "pokemon": "Dhelmise",
     "tags": [
       "seaweed-eater",
-      "sticky-silk"
+      "sticky-silk",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Jangmo-o",
     "tags": [
       "dinosaur-like",
-      "cheek-pouches"
+      "cheek-pouches",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Hakamo-o",
     "tags": [
       "ultra-beast",
-      "three-headed"
+      "three-headed",
+      "single-eye"
     ]
   },
   {
     "pokemon": "Kommo-o",
     "tags": [
       "kleptomaniac",
-      "big-jaw"
+      "big-jaw",
+      "algae-eater"
     ]
   },
   {
     "pokemon": "Tapu Koko",
     "tags": [
       "long-neck",
-      "mucus-coated"
+      "mucus-coated",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Tapu Lele",
     "tags": [
       "clawed-legs",
-      "water-bubble"
+      "water-bubble",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Tapu Bulu",
     "tags": [
       "horned",
-      "keystone-species"
+      "keystone-species",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Tapu Fini",
     "tags": [
       "clawed-legs",
-      "water-bubble"
+      "water-bubble",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Cosmog",
     "tags": [
       "gaseous-body",
-      "light-absorber"
+      "light-absorber",
+      "ultra-beast"
     ]
   },
   {
@@ -5615,6 +6367,7 @@
     "tags": [
       "bioluminescent",
       "sun-dependent",
+      "vestigial-wings",
       "invisible",
       "color-changing"
     ]
@@ -5623,140 +6376,160 @@
     "pokemon": "Solgaleo",
     "tags": [
       "sun-sensitive",
-      "fossil-revived"
+      "fossil-revived",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Lunala",
     "tags": [
       "vestigial-wings",
-      "stone-body"
+      "stone-body",
+      "leaf-tail"
     ]
   },
   {
     "pokemon": "Nihilego",
     "tags": [
       "ultra-beast",
-      "algae-eater"
+      "algae-eater",
+      "metal-body"
     ]
   },
   {
     "pokemon": "Buzzwole",
     "tags": [
       "insectoid",
-      "ultra-beast"
+      "ultra-beast",
+      "rock-body"
     ]
   },
   {
     "pokemon": "Pheromosa",
     "tags": [
       "piscivore",
-      "bioluminescent"
+      "bioluminescent",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Xurkitree",
     "tags": [
       "electric-tail",
-      "clawed-feet"
+      "clawed-feet",
+      "quadrupedal"
     ]
   },
   {
     "pokemon": "Celesteela",
     "tags": [
       "fluffy-tail",
-      "three-headed"
+      "three-headed",
+      "larval-form"
     ]
   },
   {
     "pokemon": "Kartana",
     "tags": [
       "kleptomaniac",
-      "stone-body"
+      "stone-body",
+      "big-jaw"
     ]
   },
   {
     "pokemon": "Guzzlord",
     "tags": [
       "big-jaw",
-      "mucus-coated"
+      "mucus-coated",
+      "ultra-beast"
     ]
   },
   {
     "pokemon": "Necrozma",
     "tags": [
       "bioluminescent",
-      "metallic-body"
+      "metallic-body",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Magearna",
     "tags": [
       "single-eye",
-      "metallic-body"
+      "metallic-body",
+      "fairy-type"
     ]
   },
   {
     "pokemon": "Marshadow",
     "tags": [
       "living-fossil",
-      "light-attracted"
+      "light-attracted",
+      "spike-defense"
     ]
   },
   {
     "pokemon": "Poipole",
     "tags": [
       "ultra-beast",
-      "clawed-legs"
+      "clawed-legs",
+      "living-fossil"
     ]
   },
   {
     "pokemon": "Naganadel",
     "tags": [
       "vestigial-wings",
-      "ultra-beast"
+      "ultra-beast",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Stakataka",
     "tags": [
       "stone-body",
-      "mushroom-like"
+      "mushroom-like",
+      "night-active"
     ]
   },
   {
     "pokemon": "Blacephalon",
     "tags": [
       "metallic-body",
-      "three-headed"
+      "three-headed",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Zeraora",
     "tags": [
       "electric-fur",
-      "z-power"
+      "z-power",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Meltan",
     "tags": [
       "metal-absorber",
-      "ice-crystals"
+      "ice-crystals",
+      "hisuian-form"
     ]
   },
   {
     "pokemon": "Melmetal",
     "tags": [
       "metallic-body",
-      "rock-salt"
+      "rock-salt",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Grookey",
     "tags": [
       "electric-cheeks",
-      "plankton-eater"
+      "plankton-eater",
+      "clawed-paws"
     ]
   },
   {
@@ -5764,6 +6537,7 @@
     "tags": [
       "keystone-species",
       "clawed-paws",
+      "color-changing",
       "semiaquatic"
     ]
   },
@@ -5771,154 +6545,176 @@
     "pokemon": "Rillaboom",
     "tags": [
       "long-neck",
-      "algae-eater"
+      "algae-eater",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Scorbunny",
     "tags": [
       "rabbit-like",
-      "scavenger"
+      "scavenger",
+      "heat-regulation"
     ]
   },
   {
     "pokemon": "Raboot",
     "tags": [
       "electric-cheeks",
-      "fluffy-fur"
+      "fluffy-fur",
+      "heat-sensitive"
     ]
   },
   {
     "pokemon": "Cinderace",
     "tags": [
       "rock-shell",
-      "fur-covered"
+      "fur-covered",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Sobble",
     "tags": [
       "camouflage",
-      "moist-skin"
+      "moist-skin",
+      "water-resistant"
     ]
   },
   {
     "pokemon": "Drizzile",
     "tags": [
       "water-bubble",
-      "two-headed"
+      "two-headed",
+      "moist-skin"
     ]
   },
   {
     "pokemon": "Inteleon",
     "tags": [
       "color-changing",
-      "cheek-sacs"
+      "cheek-sacs",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Skwovet",
     "tags": [
       "living-fossil",
-      "clawed-paws"
+      "clawed-paws",
+      "no-food"
     ]
   },
   {
     "pokemon": "Greedent",
     "tags": [
       "herbivore",
-      "cheek-sacs"
+      "cheek-sacs",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Rookidee",
     "tags": [
       "vestigial-wings",
-      "venomous"
+      "venomous",
+      "apex-predator"
     ]
   },
   {
     "pokemon": "Corvisquire",
     "tags": [
       "intelligent",
-      "dark-habitat"
+      "dark-habitat",
+      "camouflage"
     ]
   },
   {
     "pokemon": "Corviknight",
     "tags": [
       "neoteny",
-      "vestigial-wings"
+      "vestigial-wings",
+      "night-sky"
     ]
   },
   {
     "pokemon": "Blipbug",
     "tags": [
       "insectoid",
-      "color-changing"
+      "color-changing",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Dottler",
     "tags": [
       "larval-form",
-      "horned"
+      "horned",
+      "fossil-revived"
     ]
   },
   {
     "pokemon": "Orbeetle",
     "tags": [
       "stone-body",
-      "horned"
+      "horned",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Nickit",
     "tags": [
       "clawed-paws",
-      "soil-eater"
+      "soil-eater",
+      "mischievous"
     ]
   },
   {
     "pokemon": "Thievul",
     "tags": [
       "horned",
-      "fluffy-tail"
+      "fluffy-tail",
+      "sweet-aroma"
     ]
   },
   {
     "pokemon": "Gossifleur",
     "tags": [
       "flower-bud",
-      "damp-habitat"
+      "damp-habitat",
+      "carnivorous"
     ]
   },
   {
     "pokemon": "Eldegoss",
     "tags": [
       "mucus-coated",
-      "cellulose-diet"
+      "cellulose-diet",
+      "lagomorph"
     ]
   },
   {
     "pokemon": "Wooloo",
     "tags": [
       "fluffy-fur",
-      "webbed-feet"
+      "webbed-feet",
+      "moss-covered"
     ]
   },
   {
     "pokemon": "Dubwool",
     "tags": [
       "horned",
-      "fossil-revived"
+      "fossil-revived",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Chewtle",
     "tags": [
       "big-jaw",
-      "clawed-paws"
+      "clawed-paws",
+      "carrion-eater"
     ]
   },
   {
@@ -5933,98 +6729,112 @@
     "pokemon": "Yamper",
     "tags": [
       "curious",
-      "electric-fur"
+      "electric-fur",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Boltund",
     "tags": [
       "horned",
-      "clawed-feet"
+      "clawed-feet",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Rolycoly",
     "tags": [
       "polar-adapted",
-      "rock-shell"
+      "rock-shell",
+      "galarian-form"
     ]
   },
   {
     "pokemon": "Carkol",
     "tags": [
       "flammable-gas",
-      "rock-body"
+      "rock-body",
+      "life-energy"
     ]
   },
   {
     "pokemon": "Coalossal",
     "tags": [
       "flammable-gas",
-      "rock-shell"
+      "rock-shell",
+      "fur-covered"
     ]
   },
   {
     "pokemon": "Applin",
     "tags": [
       "fruit-eater",
-      "endocytosis"
+      "endocytosis",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Flapple",
     "tags": [
       "fruit-eater",
-      "stone-body"
+      "stone-body",
+      "clawed-paws"
     ]
   },
   {
     "pokemon": "Appletun",
     "tags": [
       "fruit-eater",
-      "sweet-aroma"
+      "sweet-aroma",
+      "single-eye"
     ]
   },
   {
     "pokemon": "Silicobra",
     "tags": [
       "seaweed-eater",
-      "single-eye"
+      "single-eye",
+      "cave-dweller"
     ]
   },
   {
     "pokemon": "Sandaconda",
     "tags": [
       "stone-body",
-      "toxic-dust"
+      "toxic-dust",
+      "carrion-eater"
     ]
   },
   {
     "pokemon": "Cramorant",
     "tags": [
       "venomous",
-      "bipedal"
+      "bipedal",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Arrokuda",
     "tags": [
       "apex-predator",
-      "fish-eater"
+      "fish-eater",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Barraskewda",
     "tags": [
       "fish-like",
-      "long-neck"
+      "long-neck",
+      "horned"
     ]
   },
   {
     "pokemon": "Toxel",
     "tags": [
       "totem-pokemon",
-      "clawed-legs"
+      "clawed-legs",
+      "algae-eater"
     ]
   },
   {
@@ -6039,84 +6849,96 @@
     "pokemon": "Sizzlipede",
     "tags": [
       "insectivore",
-      "sleep-flame"
+      "sleep-flame",
+      "iron-eater"
     ]
   },
   {
     "pokemon": "Centiskorch",
     "tags": [
       "flammable-gas",
-      "apex-predator"
+      "apex-predator",
+      "heat-sensitive"
     ]
   },
   {
     "pokemon": "Clobbopus",
     "tags": [
       "algae-eater",
-      "cheek-pouches"
+      "cheek-pouches",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Grapploct",
     "tags": [
       "amphibious",
-      "cheek-pouches"
+      "cheek-pouches",
+      "venomous"
     ]
   },
   {
     "pokemon": "Sinistea",
     "tags": [
       "venomous",
-      "ice-crystals"
+      "ice-crystals",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Polteageist",
     "tags": [
       "poison-powder",
-      "polar-adapted"
+      "polar-adapted",
+      "blood-drinker"
     ]
   },
   {
     "pokemon": "Hatenna",
     "tags": [
       "fluffy-tail",
-      "venomous"
+      "venomous",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Hattrem",
     "tags": [
       "fluffy-tail",
-      "two-headed"
+      "two-headed",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Hatterene",
     "tags": [
       "fluffy-tail",
-      "single-eye"
+      "single-eye",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Impidimp",
     "tags": [
       "omnivorous",
-      "mucus-coated"
+      "mucus-coated",
+      "venomous"
     ]
   },
   {
     "pokemon": "Morgrem",
     "tags": [
       "horned",
-      "closed-eyes"
+      "closed-eyes",
+      "decomposer"
     ]
   },
   {
     "pokemon": "Grimmsnarl",
     "tags": [
       "fluffy-fur",
-      "long-neck"
+      "long-neck",
+      "clawed-legs"
     ]
   },
   {
@@ -6132,6 +6954,7 @@
     "tags": [
       "omnivore",
       "volcano-dweller",
+      "clawed-legs",
       "lightweight"
     ]
   },
@@ -6139,301 +6962,344 @@
     "pokemon": "Cursola",
     "tags": [
       "bioluminescent",
-      "long-neck"
+      "long-neck",
+      "algae-eater"
     ]
   },
   {
     "pokemon": "Sirfetch’d",
     "tags": [
       "omnivore",
-      "webbed-feet"
+      "webbed-feet",
+      "amphibious"
     ]
   },
   {
     "pokemon": "Mr. Rime",
     "tags": [
       "humanoid",
-      "ice-crystals"
+      "ice-crystals",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Runerigus",
     "tags": [
       "venomous",
-      "stone-body"
+      "stone-body",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Milcery",
     "tags": [
       "moist-skin",
-      "sweet-aroma"
+      "sweet-aroma",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Alcremie",
     "tags": [
       "sweet-aroma",
-      "alolan-form"
+      "alolan-form",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Falinks",
     "tags": [
       "swarm-behavior",
-      "clawed-legs"
+      "clawed-legs",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Pincurchin",
     "tags": [
       "burrower",
-      "acid-digestion"
+      "acid-digestion",
+      "plankton-eater"
     ]
   },
   {
     "pokemon": "Snom",
     "tags": [
       "snow-eater",
-      "larval-form"
+      "larval-form",
+      "scavenger"
     ]
   },
   {
     "pokemon": "Frosmoth",
     "tags": [
       "ice-crystals",
-      "vestigial-wings"
+      "vestigial-wings",
+      "sunlight-dependent"
     ]
   },
   {
     "pokemon": "Stonjourner",
     "tags": [
       "stone-body",
-      "sun-powered"
+      "sun-powered",
+      "endocytosis"
     ]
   },
   {
     "pokemon": "Eiscue",
     "tags": [
       "ice-crystals",
-      "endocytosis"
+      "endocytosis",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Indeedee",
     "tags": [
       "sexual-dimorphism",
-      "telepathy"
+      "telepathy",
+      "two-headed"
     ]
   },
   {
     "pokemon": "Morpeko",
     "tags": [
       "humanoid",
-      "fluffy-fur"
+      "fluffy-fur",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Cufant",
     "tags": [
       "tusked",
-      "metallic-body"
+      "metallic-body",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Copperajah",
     "tags": [
       "metallic-body",
-      "tusked"
+      "tusked",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Dracozolt",
     "tags": [
       "clawed-legs",
-      "bioluminescent"
+      "bioluminescent",
+      "fossil-revived"
     ]
   },
   {
     "pokemon": "Arctozolt",
     "tags": [
       "bioluminescent",
-      "ice-crystals"
+      "ice-crystals",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Dracovish",
     "tags": [
       "fossil-revived",
-      "three-headed"
+      "three-headed",
+      "seaweed-eater"
     ]
   },
   {
     "pokemon": "Arctovish",
     "tags": [
       "keystone-species",
-      "two-headed"
+      "two-headed",
+      "horned"
     ]
   },
   {
     "pokemon": "Duraludon",
     "tags": [
       "dinosaur-like",
-      "metallic-body"
+      "metallic-body",
+      "two-headed"
     ]
   },
   {
     "pokemon": "Dreepy",
     "tags": [
       "amphibious",
-      "clawed-legs"
+      "clawed-legs",
+      "dinosaur-like"
     ]
   },
   {
     "pokemon": "Drakloak",
     "tags": [
       "ferocious",
-      "dinosaur-like"
+      "dinosaur-like",
+      "amphibious"
     ]
   },
   {
     "pokemon": "Dragapult",
     "tags": [
       "horned",
-      "vestigial-wings"
+      "vestigial-wings",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Zacian",
     "tags": [
       "galarian-form",
-      "gentle-giant"
+      "gentle-giant",
+      "z-power"
     ]
   },
   {
     "pokemon": "Zamazenta",
     "tags": [
       "z-power",
-      "moist-skin"
+      "moist-skin",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Eternatus",
     "tags": [
       "gentle-giant",
-      "metallic-body"
+      "metallic-body",
+      "extraterrestrial"
     ]
   },
   {
     "pokemon": "Kubfu",
     "tags": [
       "kleptomaniac",
-      "fluffy-fur"
+      "fluffy-fur",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Urshifu",
     "tags": [
       "honey-producer",
-      "clawed-legs"
+      "clawed-legs",
+      "cave-dweller"
     ]
   },
   {
     "pokemon": "Zarude",
     "tags": [
       "clawed-legs",
-      "metallic-body"
+      "metallic-body",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Regieleki",
     "tags": [
       "energy-core",
-      "metallic-body"
+      "metallic-body",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Regidrago",
     "tags": [
       "electric-cheeks",
-      "legendary"
+      "legendary",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Glastrier",
     "tags": [
       "snow-covered",
-      "ice-crystals"
+      "ice-crystals",
+      "carnivore"
     ]
   },
   {
     "pokemon": "Spectrier",
     "tags": [
       "light-absorber",
-      "horned"
+      "horned",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Calyrex",
     "tags": [
       "ice-crystals",
-      "long-neck"
+      "long-neck",
+      "flame-sac"
     ]
   },
   {
     "pokemon": "Wyrdeer",
     "tags": [
       "snow-dweller",
-      "horned"
+      "horned",
+      "forest-guardian"
     ]
   },
   {
     "pokemon": "Kleavor",
     "tags": [
       "kleptomaniac",
-      "sharp-teeth"
+      "sharp-teeth",
+      "metal-eater"
     ]
   },
   {
     "pokemon": "Ursaluna",
     "tags": [
       "keystone-species",
-      "clawed-feet"
+      "clawed-feet",
+      "cave-dweller"
     ]
   },
   {
     "pokemon": "Basculegion",
     "tags": [
       "sun-basking",
-      "horned"
+      "horned",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Sneasler",
     "tags": [
       "clawed-legs",
-      "venomous"
+      "venomous",
+      "dark-habitat"
     ]
   },
   {
     "pokemon": "Overqwil",
     "tags": [
       "curious",
-      "seaweed-eater"
+      "seaweed-eater",
+      "toxic-dust"
     ]
   },
   {
     "pokemon": "Enamorus",
     "tags": [
       "totem-pokemon",
-      "bioluminescent"
+      "bioluminescent",
+      "bipedal"
     ]
   },
   {
     "pokemon": "Sprigatito",
     "tags": [
       "clawed-paws",
-      "sweet-aroma"
+      "sweet-aroma",
+      "electric-fur"
     ]
   },
   {
@@ -6441,6 +7307,7 @@
     "tags": [
       "photosynthesis",
       "fluffy-fur",
+      "venomous",
       "moss-covered"
     ]
   },
@@ -6448,105 +7315,120 @@
     "pokemon": "Meowscarada",
     "tags": [
       "fluffy-fur",
-      "cheek-pouches"
+      "cheek-pouches",
+      "photosynthesis"
     ]
   },
   {
     "pokemon": "Fuecoco",
     "tags": [
       "sleep-flame",
-      "endocytosis"
+      "endocytosis",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Crocalor",
     "tags": [
       "fire-breath",
-      "mucus-coated"
+      "mucus-coated",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Skeledirge",
     "tags": [
       "clawed-legs",
-      "sleep-discharge"
+      "sleep-discharge",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Quaxly",
     "tags": [
       "mucus-coated",
-      "fluffy-fur"
+      "fluffy-fur",
+      "muddy-habitat"
     ]
   },
   {
     "pokemon": "Quaxwell",
     "tags": [
       "fluffy-tail",
-      "color-changing"
+      "color-changing",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Quaquaval",
     "tags": [
       "avian",
-      "fluffy-tail"
+      "fluffy-tail",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Lechonk",
     "tags": [
       "herbivorous",
-      "mucus-coated"
+      "mucus-coated",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Oinkologne",
     "tags": [
       "clawed-legs",
-      "color-changing"
+      "color-changing",
+      "male-only"
     ]
   },
   {
     "pokemon": "Tarountula",
     "tags": [
       "clawed-legs",
-      "ice-crystals"
+      "ice-crystals",
+      "gaseous-body"
     ]
   },
   {
     "pokemon": "Spidops",
     "tags": [
       "clawed-legs",
-      "insectoid"
+      "insectoid",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Nymble",
     "tags": [
       "no-legs",
-      "insectivore"
+      "insectivore",
+      "quadrupedal"
     ]
   },
   {
     "pokemon": "Lokix",
     "tags": [
       "clawed-legs",
-      "insectoid"
+      "insectoid",
+      "horned"
     ]
   },
   {
     "pokemon": "Pawmi",
     "tags": [
       "electric-fur",
-      "clawed-paws"
+      "clawed-paws",
+      "burrower"
     ]
   },
   {
     "pokemon": "Pawmo",
     "tags": [
       "clawed-paws",
-      "sleeping"
+      "sleeping",
+      "electric-fur"
     ]
   },
   {
@@ -6563,7 +7445,8 @@
     "pokemon": "Tandemaus",
     "tags": [
       "quadrupedal",
-      "two-headed"
+      "two-headed",
+      "single-eye"
     ]
   },
   {
@@ -6571,6 +7454,7 @@
     "tags": [
       "clawed-paws",
       "mucus-coated",
+      "two-headed",
       "living-fossil"
     ]
   },
@@ -6578,21 +7462,24 @@
     "pokemon": "Fidough",
     "tags": [
       "fluffy-tail",
-      "mucus-coated"
+      "mucus-coated",
+      "sleep-discharge"
     ]
   },
   {
     "pokemon": "Dachsbun",
     "tags": [
       "fluffy-fur",
-      "moist-skin"
+      "moist-skin",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Smoliv",
     "tags": [
       "algae-eater",
-      "sweet-aroma"
+      "sweet-aroma",
+      "sun-basking"
     ]
   },
   {
@@ -6609,175 +7496,200 @@
     "pokemon": "Arboliva",
     "tags": [
       "sweet-aroma",
-      "fruit-eater"
+      "fruit-eater",
+      "acid-spitter"
     ]
   },
   {
     "pokemon": "Squawkabilly",
     "tags": [
       "avian",
-      "horned"
+      "horned",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Nacli",
     "tags": [
       "rock-salt",
-      "arid-habitat"
+      "arid-habitat",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Naclstack",
     "tags": [
       "rock-salt",
-      "clawed-legs"
+      "clawed-legs",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Garganacl",
     "tags": [
       "rock-body",
-      "mucus-coated"
+      "mucus-coated",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Charcadet",
     "tags": [
       "camouflage",
-      "stone-body"
+      "stone-body",
+      "flame-sac"
     ]
   },
   {
     "pokemon": "Armarouge",
     "tags": [
       "metallic-body",
-      "clawed-legs"
+      "clawed-legs",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Ceruledge",
     "tags": [
       "bioluminescent",
-      "metallic-body"
+      "metallic-body",
+      "venomous"
     ]
   },
   {
     "pokemon": "Tadbulb",
     "tags": [
       "electric-cheeks",
-      "fish-eater"
+      "fish-eater",
+      "burrower"
     ]
   },
   {
     "pokemon": "Bellibolt",
     "tags": [
       "electric-cheeks",
-      "light-attracted"
+      "light-attracted",
+      "closed-eyes"
     ]
   },
   {
     "pokemon": "Wattrel",
     "tags": [
       "sunlight-dependent",
-      "horned"
+      "horned",
+      "flotation-sac"
     ]
   },
   {
     "pokemon": "Kilowattrel",
     "tags": [
       "kleptomaniac",
-      "electric-fur"
+      "electric-fur",
+      "light-absorber"
     ]
   },
   {
     "pokemon": "Maschiff",
     "tags": [
       "clawed-paws",
-      "mucus-coated"
+      "mucus-coated",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Mabosstiff",
     "tags": [
       "fluffy-fur",
-      "venomous"
+      "venomous",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Shroodle",
     "tags": [
       "venomous",
-      "fluffy-tail"
+      "fluffy-tail",
+      "two-headed"
     ]
   },
   {
     "pokemon": "Grafaiai",
     "tags": [
       "venomous",
-      "galarian-form"
+      "galarian-form",
+      "clawed-feet"
     ]
   },
   {
     "pokemon": "Bramblin",
     "tags": [
       "dark-habitat",
-      "leaf-tail"
+      "leaf-tail",
+      "swamp-dweller"
     ]
   },
   {
     "pokemon": "Brambleghast",
     "tags": [
       "closed-eyes",
-      "seaweed-eater"
+      "seaweed-eater",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Toedscool",
     "tags": [
       "mushroom-like",
-      "clawed-feet"
+      "clawed-feet",
+      "algae-eater"
     ]
   },
   {
     "pokemon": "Toedscruel",
     "tags": [
       "clawed-feet",
-      "mushroom-like"
+      "mushroom-like",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Klawf",
     "tags": [
       "kleptomaniac",
-      "clawed-legs"
+      "clawed-legs",
+      "plankton-eater"
     ]
   },
   {
     "pokemon": "Capsakid",
     "tags": [
       "sharp-teeth",
-      "poison-powder"
+      "poison-powder",
+      "sun-sensitive"
     ]
   },
   {
     "pokemon": "Scovillain",
     "tags": [
       "two-headed",
-      "venomous"
+      "venomous",
+      "color-changing"
     ]
   },
   {
     "pokemon": "Rellor",
     "tags": [
       "insectivore",
-      "rock-shell"
+      "rock-shell",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Rabsca",
     "tags": [
       "cheek-sacs",
-      "metallic-body"
+      "metallic-body",
+      "no-legs"
     ]
   },
   {
@@ -6793,28 +7705,32 @@
     "pokemon": "Espathra",
     "tags": [
       "dark-habitat",
-      "electric-fur"
+      "electric-fur",
+      "flame-sac"
     ]
   },
   {
     "pokemon": "Tinkatink",
     "tags": [
       "clawed-legs",
-      "rock-shell"
+      "rock-shell",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Tinkatuff",
     "tags": [
       "metallic-body",
-      "fluffy-tail"
+      "fluffy-tail",
+      "big-jaw"
     ]
   },
   {
     "pokemon": "Tinkaton",
     "tags": [
       "claw-digger",
-      "metallic-body"
+      "metallic-body",
+      "big-jaw"
     ]
   },
   {
@@ -6830,266 +7746,304 @@
     "pokemon": "Wugtrio",
     "tags": [
       "living-fossil",
-      "rock-body"
+      "rock-body",
+      "territory-marking"
     ]
   },
   {
     "pokemon": "Bombirdier",
     "tags": [
       "vestigial-wings",
-      "poison-powder"
+      "poison-powder",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Finizen",
     "tags": [
       "aquatic",
-      "bioluminescent"
+      "bioluminescent",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Palafin",
     "tags": [
       "color-changing",
-      "floating"
+      "floating",
+      "two-headed"
     ]
   },
   {
     "pokemon": "Varoom",
     "tags": [
       "metal-body",
-      "bioluminescent"
+      "bioluminescent",
+      "larval-form"
     ]
   },
   {
     "pokemon": "Revavroom",
     "tags": [
       "electric-cheeks",
-      "gaseous-body"
+      "gaseous-body",
+      "upside-down"
     ]
   },
   {
     "pokemon": "Cyclizar",
     "tags": [
       "dinosaur-like",
-      "light-absorber"
+      "light-absorber",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Orthworm",
     "tags": [
       "insectivore",
-      "metal-body"
+      "metal-body",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Glimmet",
     "tags": [
       "poison-powder",
-      "ice-crystals"
+      "ice-crystals",
+      "bioluminescent"
     ]
   },
   {
     "pokemon": "Glimmora",
     "tags": [
       "bioluminescent",
-      "poison-powder"
+      "poison-powder",
+      "flame-sac"
     ]
   },
   {
     "pokemon": "Greavard",
     "tags": [
       "extinct",
-      "clawed-paws"
+      "clawed-paws",
+      "acid-digestion"
     ]
   },
   {
     "pokemon": "Houndstone",
     "tags": [
       "fluffy-fur",
-      "stone-body"
+      "stone-body",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Flamigo",
     "tags": [
       "long-neck",
-      "dinosaur-like"
+      "dinosaur-like",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Cetoddle",
     "tags": [
       "amphibious",
-      "sleeping"
+      "sleeping",
+      "big-jaw"
     ]
   },
   {
     "pokemon": "Cetitan",
     "tags": [
       "big-jaw",
-      "moist-skin"
+      "moist-skin",
+      "keystone-species"
     ]
   },
   {
     "pokemon": "Veluza",
     "tags": [
       "stone-body",
-      "apex-predator"
+      "apex-predator",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Dondozo",
     "tags": [
       "stone-body",
-      "three-headed"
+      "three-headed",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Tatsugiri",
     "tags": [
       "larval-form",
-      "clawed-paws"
+      "clawed-paws",
+      "acid-digestion"
     ]
   },
   {
     "pokemon": "Annihilape",
     "tags": [
       "clawed-paws",
-      "ruin-dweller"
+      "ruin-dweller",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Clodsire",
     "tags": [
       "amphibious",
-      "clawed-legs"
+      "clawed-legs",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Farigiraf",
     "tags": [
       "fluffy-tail",
-      "electric-cheeks"
+      "electric-cheeks",
+      "two-headed"
     ]
   },
   {
     "pokemon": "Dudunsparce",
     "tags": [
       "fossil-revived",
-      "three-headed"
+      "three-headed",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Kingambit",
     "tags": [
       "long-neck",
-      "metal-body"
+      "metal-body",
+      "ultra-beast"
     ]
   },
   {
     "pokemon": "Great Tusk",
     "tags": [
       "tusked",
-      "rock-shell"
+      "rock-shell",
+      "gentle-giant"
     ]
   },
   {
     "pokemon": "Scream Tail",
     "tags": [
       "fluffy-tail",
-      "singing-pokemon"
+      "singing-pokemon",
+      "cheek-sacs"
     ]
   },
   {
     "pokemon": "Brute Bonnet",
     "tags": [
       "long-neck",
-      "rock-shell"
+      "rock-shell",
+      "prehistoric"
     ]
   },
   {
     "pokemon": "Flutter Mane",
     "tags": [
       "living-fossil",
-      "fluffy-fur"
+      "fluffy-fur",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Slither Wing",
     "tags": [
       "insectivore",
-      "vestigial-wings"
+      "vestigial-wings",
+      "no-legs"
     ]
   },
   {
     "pokemon": "Sandy Shocks",
     "tags": [
       "metallic-body",
-      "earthquake-trigger"
+      "earthquake-trigger",
+      "toxic-dust"
     ]
   },
   {
     "pokemon": "Iron Treads",
     "tags": [
       "iron-eater",
-      "metallic-body"
+      "metallic-body",
+      "webbed-feet"
     ]
   },
   {
     "pokemon": "Iron Bundle",
     "tags": [
       "iron-diet",
-      "snow-covered"
+      "snow-covered",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Iron Hands",
     "tags": [
       "metallic-body",
-      "iron-eater"
+      "iron-eater",
+      "clawed-feet"
     ]
   },
   {
     "pokemon": "Iron Jugulis",
     "tags": [
       "iron-eater",
-      "metallic-body"
+      "metallic-body",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Iron Moth",
     "tags": [
       "iron-eater",
-      "insectoid"
+      "insectoid",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Iron Thorns",
     "tags": [
       "clawed-feet",
-      "iron-eater"
+      "iron-eater",
+      "moss-covered"
     ]
   },
   {
     "pokemon": "Frigibax",
     "tags": [
       "ice-crystals",
-      "long-neck"
+      "long-neck",
+      "algae-eater"
     ]
   },
   {
     "pokemon": "Arctibax",
     "tags": [
       "fluffy-tail",
-      "ice-crystals"
+      "ice-crystals",
+      "single-eye"
     ]
   },
   {
     "pokemon": "Baxcalibur",
     "tags": [
       "ice-crystals",
-      "clawed-feet"
+      "clawed-feet",
+      "mucus-coated"
     ]
   },
   {
@@ -7106,182 +8060,208 @@
     "pokemon": "Gholdengo",
     "tags": [
       "gluttonous",
-      "rock-shell"
+      "rock-shell",
+      "cheek-pouches"
     ]
   },
   {
     "pokemon": "Wo-Chien",
     "tags": [
       "berry-eater",
-      "stone-body"
+      "stone-body",
+      "mucus-coated"
     ]
   },
   {
     "pokemon": "Chien-Pao",
     "tags": [
       "ice-crystals",
-      "clawed-legs"
+      "clawed-legs",
+      "decomposer"
     ]
   },
   {
     "pokemon": "Ting-Lu",
     "tags": [
       "living-fossil",
-      "mucus-coated"
+      "mucus-coated",
+      "metallic-body"
     ]
   },
   {
     "pokemon": "Chi-Yu",
     "tags": [
       "stone-body",
-      "heat-resistant"
+      "heat-resistant",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Roaring Moon",
     "tags": [
       "sharp-teeth",
-      "fluffy-tail"
+      "fluffy-tail",
+      "long-neck"
     ]
   },
   {
     "pokemon": "Iron Valiant",
     "tags": [
       "iron-eater",
-      "metallic-body"
+      "metallic-body",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Koraidon",
     "tags": [
       "flotation-sac",
-      "long-neck"
+      "long-neck",
+      "single-eye"
     ]
   },
   {
     "pokemon": "Miraidon",
     "tags": [
       "single-eye",
-      "dinosaur-like"
+      "dinosaur-like",
+      "fluffy-tail"
     ]
   },
   {
     "pokemon": "Walking Wake",
     "tags": [
       "nocturnal",
-      "clawed-feet"
+      "clawed-feet",
+      "dinosaur-like"
     ]
   },
   {
     "pokemon": "Iron Leaves",
     "tags": [
       "iron-eater",
-      "metallic-body"
+      "metallic-body",
+      "moss-covered"
     ]
   },
   {
     "pokemon": "Dipplin",
     "tags": [
       "leaf-tail",
-      "poison-spikes"
+      "poison-spikes",
+      "moss-covered"
     ]
   },
   {
     "pokemon": "Poltchageist",
     "tags": [
       "poison-powder",
-      "ice-crystals"
+      "ice-crystals",
+      "tunnel-digger"
     ]
   },
   {
     "pokemon": "Sinistcha",
     "tags": [
       "humanoid",
-      "mucus-coated"
+      "mucus-coated",
+      "poison-powder"
     ]
   },
   {
     "pokemon": "Okidogi",
     "tags": [
       "three-headed",
-      "gentle-giant"
+      "gentle-giant",
+      "stone-body"
     ]
   },
   {
     "pokemon": "Munkidori",
     "tags": [
       "mucus-coated",
-      "three-headed"
+      "three-headed",
+      "mushroom-like"
     ]
   },
   {
     "pokemon": "Fezandipiti",
     "tags": [
       "fluffy-tail",
-      "long-neck"
+      "long-neck",
+      "vestigial-wings"
     ]
   },
   {
     "pokemon": "Ogerpon",
     "tags": [
       "moss-covered",
-      "piscivore"
+      "piscivore",
+      "camouflage"
     ]
   },
   {
     "pokemon": "Archaludon",
     "tags": [
       "dinosaur-like",
-      "metallic-body"
+      "metallic-body",
+      "clawed-legs"
     ]
   },
   {
     "pokemon": "Hydrapple",
     "tags": [
       "horned",
-      "acid-digestion"
+      "acid-digestion",
+      "ice-crystals"
     ]
   },
   {
     "pokemon": "Gouging Fire",
     "tags": [
       "fire-type",
-      "electric-fur"
+      "electric-fur",
+      "three-headed"
     ]
   },
   {
     "pokemon": "Raging Bolt",
     "tags": [
       "clawed-legs",
-      "flame-tail"
+      "flame-tail",
+      "big-jaw"
     ]
   },
   {
     "pokemon": "Iron Boulder",
     "tags": [
       "rock-body",
-      "iron-eater"
+      "iron-eater",
+      "metallic"
     ]
   },
   {
     "pokemon": "Iron Crown",
     "tags": [
       "iron-eater",
-      "metallic-body"
+      "metallic-body",
+      "electric-cheeks"
     ]
   },
   {
     "pokemon": "Terapagos",
     "tags": [
       "rock-shell",
-      "bioluminescent"
+      "bioluminescent",
+      "fossil-revived"
     ]
   },
   {
     "pokemon": "Pecharunt",
     "tags": [
       "piscivore",
-      "cheek-sacs"
+      "cheek-sacs",
+      "electric-tail"
     ]
   }
 ]
