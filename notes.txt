@@ -1,2 +1,0 @@
-- tkinter program to display tag info
-- update readme.md
