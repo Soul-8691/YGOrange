@@ -1,0 +1,3 @@
+- new file called pokemon_stats.json that calculates stat averages (25%/50%/75% percentile) and moves in learnsets for Pokemon types (single types only), egg groups (single only), habitats, and tags, including a separate section for fully evolved mons only for stat averages. baseStats/types/eggGroups are gotten from pokedex.ts, learnset moves from learnsets.json (use the "9" object), habitats from habitats.json, and tags from pokemon_tags_retagged.json
+- train an image model on ygo card cropped art to describe in 3-10 tags
+- tkinter program to display tag info

@@ -1,0 +1,4 @@
+# pip install -r requirements-retag.txt
+sentence-transformers>=3.0.0
+scikit-learn>=1.3.0
+torch>=2.0.0
