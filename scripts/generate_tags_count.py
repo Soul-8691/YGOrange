@@ -24,7 +24,7 @@ def main() -> None:
     ap.add_argument(
         "-i",
         "--input",
-        default="pokemon_tags.json",
+        default="pokemon_tags_retagged.json",
         help="Input: list of { pokemon, tags }",
     )
     ap.add_argument(

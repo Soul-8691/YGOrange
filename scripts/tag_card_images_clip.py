@@ -16,6 +16,8 @@ local scoring.
 
 Examples:
   python scripts/tag_card_images_clip.py -i chimeratech --tags tags_condensed_removals.json
+  # Only passcodes listed in cards.txt (one per line), e.g. same format as chimeratech.txt
+  python scripts/tag_card_images_clip.py -i chimeratech -c cards.txt --tags tags_condensed_removals.json -o subset.json
   # Quick try: 20 random cards, save aside, tune flags
   python scripts/tag_card_images_clip.py -i chimeratech --shuffle-seed 1 --limit 20 -o card_image_tags_try.json
   # Next slice + merge into one JSON
@@ -38,6 +40,12 @@ import numpy as np
 import torch
 from PIL import Image
 from transformers import CLIPModel, CLIPProcessor
+
+from card_image_passcodes import (
+    filter_paths_by_passcodes,
+    load_cards_allowlist,
+    passcode_from_image_stem,
+)
 
 # Averaged CLIP prompts (standard zero-shot trick) — more visually grounded than one template.
 DEFAULT_PROMPT_TEMPLATES: list[str] = [
@@ -174,13 +182,6 @@ def list_images(root: Path, *, recursive: bool) -> list[Path]:
     it = root.rglob("*") if recursive else root.iterdir()
     out = [p for p in it if p.is_file() and p.suffix.lower() in exts]
     return sorted(out)
-
-
-def passcode_from_image_path(path: Path) -> Optional[int]:
-    stem = path.stem.strip()
-    if stem.isdigit():
-        return int(stem, 10)
-    return None
 
 
 def load_chimeratech_desc_map(path: Path) -> dict[int, str]:
@@ -373,6 +374,17 @@ def main() -> None:
         help="If set, shuffle image list with this seed before offset/limit (reproducible samples)",
     )
     ap.add_argument(
+        "-c",
+        "--cards",
+        type=Path,
+        default=None,
+        metavar="FILE",
+        help=(
+            "Text file of numeric passcodes, one per line (# comments OK). "
+            "Only matching images (e.g. 89631139.jpg) under -i are processed."
+        ),
+    )
+    ap.add_argument(
         "--merge",
         action="store_true",
         help="Load existing --output JSON (if any) and upsert by file path, then write merged list",
@@ -406,6 +418,25 @@ def main() -> None:
             file=sys.stderr,
         )
     paths = list_images(args.image_dir, recursive=args.recursive)
+    if args.cards is not None:
+        try:
+            allow = load_cards_allowlist(args.cards)
+        except (OSError, ValueError) as e:
+            print(e, file=sys.stderr)
+            sys.exit(1)
+        paths, missing = filter_paths_by_passcodes(paths, allow)
+        if missing:
+            sample = sorted(missing)
+            if len(sample) > 30:
+                sample = sample[:30] + ["…"]
+            print(
+                f"Warning: no image in -i for {len(missing)} passcode(s): {sample}",
+                file=sys.stderr,
+            )
+        print(
+            f"Filtered to {len(paths)} image(s) from {args.cards} ({len(allow)} passcode(s))",
+            file=sys.stderr,
+        )
     if args.shuffle_seed is not None:
         rng = np.random.default_rng(int(args.shuffle_seed))
         rng.shuffle(paths)
@@ -500,7 +531,7 @@ def main() -> None:
             for row, pth in enumerate(ok_paths):
                 if desc_w <= 0 or not desc_map:
                     continue
-                cid = passcode_from_image_path(pth)
+                cid = passcode_from_image_stem(pth)
                 if cid is None:
                     continue
                 d = desc_map.get(cid)

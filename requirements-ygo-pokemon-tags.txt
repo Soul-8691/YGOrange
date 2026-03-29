@@ -1,0 +1,5 @@
+# pip install -r requirements-ygo-pokemon-tags.txt
+# YGO card text → tags_condensed_removals (sentence-transformers only)
+sentence-transformers>=3.0.0
+numpy>=1.24.0
+torch>=2.0.0

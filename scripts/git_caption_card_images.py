@@ -27,6 +27,7 @@ Output: JSON object ``{ "passcode": "caption", ... }`` suitable for
 Examples::
 
   python scripts/git_caption_card_images.py -i chimeratech -o git_captions.json --limit 50
+  python scripts/git_caption_card_images.py -i chimeratech -c cards.txt -o git_subset.json
   python scripts/git_caption_card_images.py -i chimeratech -o git.json --batch-size 4 --device cuda
 
 Install::
@@ -41,12 +42,18 @@ import json
 import os
 import sys
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any
 
 import numpy as np
 import torch
 from PIL import Image
 from transformers import AutoModelForCausalLM, AutoProcessor
+
+from card_image_passcodes import (
+    filter_paths_by_passcodes,
+    load_cards_allowlist,
+    passcode_from_image_stem,
+)
 
 
 def list_images(root: Path, *, recursive: bool) -> list[Path]:
@@ -54,11 +61,6 @@ def list_images(root: Path, *, recursive: bool) -> list[Path]:
     it = root.rglob("*") if recursive else root.iterdir()
     out = [p for p in it if p.is_file() and p.suffix.lower() in exts]
     return sorted(out)
-
-
-def passcode_from_path(path: Path) -> Optional[int]:
-    s = path.stem.strip()
-    return int(s, 10) if s.isdigit() else None
 
 
 def load_rgb(path: Path) -> Image.Image:
@@ -137,6 +139,17 @@ def main() -> None:
         default=None,
         metavar="SEED",
     )
+    ap.add_argument(
+        "-c",
+        "--cards",
+        type=Path,
+        default=None,
+        metavar="FILE",
+        help=(
+            "Text file of numeric passcodes, one per line (# comments OK). "
+            "Only matching images under -i are captioned."
+        ),
+    )
     ap.add_argument("--batch-size", type=int, default=1)
     ap.add_argument(
         "--max-new-tokens",
@@ -190,6 +203,25 @@ def main() -> None:
         sys.exit(1)
 
     paths = list_images(args.image_dir, recursive=args.recursive)
+    if args.cards is not None:
+        try:
+            allow = load_cards_allowlist(args.cards)
+        except (OSError, ValueError) as e:
+            print(e, file=sys.stderr)
+            sys.exit(1)
+        paths, missing = filter_paths_by_passcodes(paths, allow)
+        if missing:
+            sample = sorted(missing)
+            if len(sample) > 30:
+                sample = sample[:30] + ["…"]
+            print(
+                f"Warning: no image in -i for {len(missing)} passcode(s): {sample}",
+                file=sys.stderr,
+            )
+        print(
+            f"Filtered to {len(paths)} image(s) from {args.cards} ({len(allow)} passcode(s))",
+            file=sys.stderr,
+        )
     if args.shuffle_seed is not None:
         rng = np.random.default_rng(int(args.shuffle_seed))
         rng.shuffle(paths)
@@ -198,6 +230,13 @@ def main() -> None:
         paths = paths[off:]
     if args.limit > 0:
         paths = paths[: int(args.limit)]
+
+    if not paths:
+        print(
+            "No images to process (check folder, --cards, offset, limit).",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     raw_tok = (args.hf_token or os.environ.get("HF_TOKEN") or "").strip()
     load_kw: dict[str, Any] = {"token": raw_tok} if raw_tok else {}
@@ -273,7 +312,7 @@ def main() -> None:
         images: list[Image.Image] = []
         ids: list[int] = []
         for p in chunk:
-            pid = passcode_from_path(p)
+            pid = passcode_from_image_stem(p)
             if pid is None:
                 n_skip += 1
                 continue

@@ -152,7 +152,7 @@ def main() -> None:
     ap.add_argument("-i", "--input", default="pokemon_lore.json", help="Lore JSON array")
     ap.add_argument(
         "--tags",
-        default="tags_condensed.json",
+        default="tags_condensed_removals.json",
         help="JSON array of allowed tag strings",
     )
     ap.add_argument(
@@ -188,7 +188,7 @@ def main() -> None:
     ap.add_argument(
         "--sim-floor",
         type=float,
-        default=0.22,
+        default=0.55,
         help="Stop adding tags once cosine similarity drops below this (after min-tags)",
     )
     ap.add_argument(
@@ -203,7 +203,7 @@ def main() -> None:
     ap.add_argument(
         "--max-similar-picked",
         type=int,
-        default=0,
+        default=1,
         metavar="N",
         help=(
             "Cap tags that sit in the same embedding neighborhood: refuse a candidate "
@@ -214,7 +214,7 @@ def main() -> None:
     ap.add_argument(
         "--similar-pair-threshold",
         type=float,
-        default=0.88,
+        default=0.75,
         help="Cosine between tag embeddings for --max-similar-picked (default: 0.88)",
     )
     ap.add_argument("--limit", type=int, default=0, help="If >0, only first N species")
