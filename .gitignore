@@ -213,3 +213,4 @@ cardinfo.json
 chimeratech/
 scripts/probe_*.py
 *_test*
+*_sample*

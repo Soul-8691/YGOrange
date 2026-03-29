@@ -1,12 +1,25 @@
 #!/usr/bin/env python3
 """
-Tag card images with a fixed vocabulary using CLIP (local Hugging Face weights only).
+Tag Yu-Gi-Oh (or other) card images with a fixed vocabulary using CLIP (local weights only).
 
-Walks an image folder, loads tags from JSON (same format as tags_condensed_removals.json),
-embeds each tag as text and each file as an image, ranks by cosine similarity, and writes
-3–10 tags per image. No Inference API: model downloads once from the Hub, then runs offline.
+Walks a local image folder, loads tags from JSON (e.g. tags_condensed_removals.json), and
+scores each tag with CLIP image–text similarity. If chimeratech.json is provided and the image
+filename is a numeric passcode with a non-empty ``desc`` for that id, tag scores blend image
+similarity with description–tag similarity (see --desc-weight).
 
-Typical:  python scripts/tag_card_images_clip.py -i chimeratech --tags tags_condensed_removals.json
+Defaults: 2–5 tags, Yu-Gi-Oh-oriented prompts, optional description fusion.
+
+Large tag lists (e.g. ~6000 strings) are slow mainly because CLIP must encode every tag
+× every prompt template once per run; 20 images is cheap after that. Use ``--no-prompt-ensemble``
+or a smaller JSON to speed up. ``--hf-token`` / ``HF_TOKEN`` only helps Hub download/auth, not
+local scoring.
+
+Examples:
+  python scripts/tag_card_images_clip.py -i chimeratech --tags tags_condensed_removals.json
+  # Quick try: 20 random cards, save aside, tune flags
+  python scripts/tag_card_images_clip.py -i chimeratech --shuffle-seed 1 --limit 20 -o card_image_tags_try.json
+  # Next slice + merge into one JSON
+  python scripts/tag_card_images_clip.py -i chimeratech --shuffle-seed 1 --offset 20 --limit 20 -o card_image_tags_try.json --merge
 
 Install: pip install -r requirements-card-image-tags.txt
 """
@@ -15,6 +28,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -24,6 +38,14 @@ import numpy as np
 import torch
 from PIL import Image
 from transformers import CLIPModel, CLIPProcessor
+
+# Averaged CLIP prompts (standard zero-shot trick) — more visually grounded than one template.
+DEFAULT_PROMPT_TEMPLATES: list[str] = [
+    "Yu-Gi-Oh trading card artwork showing: {}",
+    "fantasy trading card illustration of: {}",
+    "a photo of printed card art depicting: {}",
+    "illustration with visible theme or character: {}",
+]
 
 
 def tag_to_visual_phrase(tag: str, template: str) -> str:
@@ -35,29 +57,43 @@ def tag_to_visual_phrase(tag: str, template: str) -> str:
         return template.replace("{}", t) if "{}" in template else f"{template} {t}"
 
 
+def _tag_emb_dots_to_picked(
+    tag_emb: np.ndarray, i: int, picked: list[int]
+) -> np.ndarray:
+    """Cosine sims from tag i to each picked index (rows of tag_emb are L2-normalized)."""
+    if not picked:
+        return np.array([], dtype=np.float32)
+    return tag_emb[picked] @ tag_emb[i]
+
+
 def pick_tags_for_row(
     sims: np.ndarray,
     tag_names: list[str],
-    tag_tag_sim: Optional[np.ndarray],
+    tag_emb: Optional[np.ndarray],
     *,
     min_tags: int,
     max_tags: int,
     sim_floor: float,
+    top_margin: float,
     mmr_lambda: float,
     max_similar_picked: int,
     similar_pair_threshold: float,
 ) -> list[str]:
     n = len(tag_names)
     order = np.argsort(-sims)
-    use_mmr = mmr_lambda < 1.0 - 1e-9
-    use_cap = max_similar_picked > 0 and tag_tag_sim is not None
+    use_mmr = mmr_lambda < 1.0 - 1e-9 and tag_emb is not None
+    use_cap = max_similar_picked > 0 and tag_emb is not None
+    best = float(np.max(sims)) if n else 0.0
+    thresh = (
+        max(sim_floor, best - top_margin) if top_margin > 0 else sim_floor
+    )
 
     if not use_mmr and not use_cap:
         picked_idx: list[int] = []
         for idx in order:
             if len(picked_idx) >= max_tags:
                 break
-            if sims[idx] < sim_floor and len(picked_idx) >= min_tags:
+            if sims[idx] < thresh and len(picked_idx) >= min_tags:
                 break
             ii = int(idx)
             if ii not in picked_idx:
@@ -81,20 +117,15 @@ def pick_tags_for_row(
             if i in picked_set:
                 continue
             rel = float(sims[i])
-            if len(picked_idx) >= min_tags and rel < sim_floor:
+            if len(picked_idx) >= min_tags and rel < thresh:
                 continue
             if use_cap:
-                near = sum(
-                    1 for p in picked_idx if tag_tag_sim[i, p] >= similar_pair_threshold
-                )
-                if near >= max_similar_picked:
+                dots = _tag_emb_dots_to_picked(tag_emb, i, picked_idx)
+                if int(np.sum(dots >= similar_pair_threshold)) >= max_similar_picked:
                     continue
             if use_mmr:
-                max_sim_to_picked = (
-                    max(float(tag_tag_sim[i, p]) for p in picked_idx)
-                    if picked_idx
-                    else 0.0
-                )
+                dots_m = _tag_emb_dots_to_picked(tag_emb, i, picked_idx)
+                max_sim_to_picked = float(np.max(dots_m)) if len(dots_m) else 0.0
                 score = mmr_lambda * rel - (1.0 - mmr_lambda) * max_sim_to_picked
             else:
                 score = rel
@@ -124,11 +155,83 @@ def load_image_rgb(path: Path) -> Image.Image:
     return im
 
 
+def _as_feature_tensor(x: Any, *, tower: str) -> torch.Tensor:
+    """CLIP towers should return a 2D float tensor; some transformers builds return ModelOutput."""
+    if isinstance(x, torch.Tensor):
+        return x
+    for attr in ("text_embeds", "image_embeds", "pooler_output"):
+        t = getattr(x, attr, None)
+        if isinstance(t, torch.Tensor):
+            return t
+    raise TypeError(
+        f"Expected a Tensor from CLIP {tower} features; got {type(x).__name__}. "
+        "Try upgrading transformers or use openai/clip-vit-base-patch32."
+    )
+
+
 def list_images(root: Path, *, recursive: bool) -> list[Path]:
     exts = {".jpg", ".jpeg", ".png", ".webp", ".bmp"}
     it = root.rglob("*") if recursive else root.iterdir()
     out = [p for p in it if p.is_file() and p.suffix.lower() in exts]
     return sorted(out)
+
+
+def passcode_from_image_path(path: Path) -> Optional[int]:
+    stem = path.stem.strip()
+    if stem.isdigit():
+        return int(stem, 10)
+    return None
+
+
+def load_chimeratech_desc_map(path: Path) -> dict[int, str]:
+    """id -> stripped non-empty desc from chimeratech.json [{ id, desc }, ...]."""
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    if not isinstance(raw, list):
+        return {}
+    out: dict[int, str] = {}
+    for row in raw:
+        if not isinstance(row, dict):
+            continue
+        cid = row.get("id")
+        desc = row.get("desc", "")
+        if cid is None:
+            continue
+        try:
+            key = int(cid)
+        except (TypeError, ValueError):
+            continue
+        if isinstance(desc, str) and desc.strip():
+            out[key] = desc.strip()
+    return out
+
+
+def encode_texts_normalized(
+    model: CLIPModel,
+    processor: CLIPProcessor,
+    texts: list[str],
+    device: Any,
+) -> torch.Tensor:
+    """Return [N, D] L2-normalized CLIP text embeddings."""
+    if not texts:
+        return torch.empty(0, 0, device=device)
+    enc = processor(
+        text=texts,
+        return_tensors="pt",
+        padding=True,
+        truncation=True,
+        max_length=getattr(processor.tokenizer, "model_max_length", 77) or 77,
+    )
+    input_ids = enc["input_ids"].to(device)
+    attn = enc.get("attention_mask")
+    if attn is not None:
+        attn = attn.to(device)
+    tf = model.get_text_features(input_ids=input_ids, attention_mask=attn)
+    tf = _as_feature_tensor(tf, tower="text")
+    tf = tf / tf.norm(dim=-1, keepdim=True)
+    return tf
 
 
 def main() -> None:
@@ -138,7 +241,9 @@ def main() -> None:
         "--image-dir",
         type=Path,
         default=Path("chimeratech"),
-        help="Folder of card images",
+        help=(
+            "Local folder of card images (absolute or relative to cwd; can be outside the repo)"
+        ),
     )
     ap.add_argument(
         "--tags",
@@ -160,31 +265,82 @@ def main() -> None:
     )
     ap.add_argument(
         "--prompt-template",
-        default="Pokémon trading card artwork suggesting: {}",
-        help="Text prompt for each tag; must include {} for the spaced tag phrase",
+        default="Yu-Gi-Oh trading card artwork suggesting: {}",
+        help=(
+            "Single-tag prompt when --no-prompt-ensemble; must include {} for the spaced phrase"
+        ),
+    )
+    ap.add_argument(
+        "--no-prompt-ensemble",
+        action="store_true",
+        help="Use only --prompt-template instead of averaging several CLIP prompts per tag",
+    )
+    ap.add_argument(
+        "--top-margin",
+        type=float,
+        default=0.048,
+        help=(
+            "Per image: after min-tags, drop tags weaker than (best_tag_score - this). "
+            "Reduces unrelated Pokémon-trait noise on Yu-Gi-Oh art. 0 disables."
+        ),
+    )
+    ap.add_argument(
+        "--chimeratech",
+        type=Path,
+        default=Path("chimeratech.json"),
+        help="Optional JSON array of { id, desc }; merge desc into scoring when stem is passcode",
+    )
+    ap.add_argument(
+        "--desc-weight",
+        type=float,
+        default=0.35,
+        help=(
+            "When desc is present: score = (1-w)*image_tag_sim + w*desc_tag_sim. "
+            "0 = image only; 1 = text only"
+        ),
+    )
+    ap.add_argument(
+        "--desc-prefix",
+        default="Yu-Gi-Oh card flavor text: ",
+        help="Prepended to each non-empty desc before CLIP text encoding",
     )
     ap.add_argument("--recursive", action="store_true", help="Include subfolders")
     ap.add_argument("--batch-size", type=int, default=8, help="Images per forward pass")
-    ap.add_argument("--min-tags", type=int, default=3)
-    ap.add_argument("--max-tags", type=int, default=10)
+    ap.add_argument(
+        "--text-batch-size",
+        type=int,
+        default=128,
+        metavar="N",
+        help="CLIP text encoder batch size (raise for GPU; large tag lists = many batches)",
+    )
+    ap.add_argument(
+        "--hf-token",
+        default=None,
+        help=(
+            "Hugging Face token for gated/private Hub models (falls back to HF_TOKEN env). "
+            "Does not speed up scoring; only affects download/auth."
+        ),
+    )
+    ap.add_argument("--min-tags", type=int, default=2)
+    ap.add_argument("--max-tags", type=int, default=5)
     ap.add_argument(
         "--sim-floor",
         type=float,
-        default=0.14,
-        help="Stop after min-tags when image–text cosine falls below this (CLIP scale)",
+        default=0.195,
+        help="Minimum cosine (with --top-margin, effective floor is max of this and best-margin)",
     )
     ap.add_argument(
         "--mmr-lambda",
         type=float,
-        default=1.0,
+        default=0.72,
         help="1.0 = relevance only; lower adds MMR diversity vs tag–tag similarity",
     )
     ap.add_argument(
         "--max-similar-picked",
         type=int,
-        default=0,
+        default=1,
         metavar="N",
-        help="Cap near-duplicate tags (0=off); 1 recommended with CLIP",
+        help="Cap near-duplicate tags (0=off); default 1",
     )
     ap.add_argument(
         "--similar-pair-threshold",
@@ -197,13 +353,37 @@ def main() -> None:
         action="store_true",
         help="Include per-tag cosine scores in output",
     )
-    ap.add_argument("--limit", type=int, default=0, help="If >0, only first N images")
+    ap.add_argument(
+        "--limit",
+        type=int,
+        default=0,
+        help="If >0, only process this many images after --offset (e.g. 20 for quick tests)",
+    )
+    ap.add_argument(
+        "--offset",
+        type=int,
+        default=0,
+        help="Skip this many images after sort/shuffle (batch testing next chunk)",
+    )
+    ap.add_argument(
+        "--shuffle-seed",
+        type=int,
+        default=None,
+        metavar="SEED",
+        help="If set, shuffle image list with this seed before offset/limit (reproducible samples)",
+    )
+    ap.add_argument(
+        "--merge",
+        action="store_true",
+        help="Load existing --output JSON (if any) and upsert by file path, then write merged list",
+    )
     ap.add_argument("--device", default=None, help="cuda, cpu, or empty for auto")
     args = ap.parse_args()
 
     min_t = max(1, min(args.min_tags, args.max_tags))
     max_t = max(min_t, args.max_tags)
     mmr_lambda = float(np.clip(args.mmr_lambda, 0.0, 1.0))
+    desc_w = float(np.clip(args.desc_weight, 0.0, 1.0))
 
     if not args.image_dir.is_dir():
         print(f"Image directory not found: {args.image_dir}", file=sys.stderr)
@@ -218,40 +398,77 @@ def main() -> None:
         sys.exit(1)
     tag_names = [str(t).strip() for t in tag_names if str(t).strip()]
 
+    desc_map: dict[int, str] = {}
+    if args.chimeratech.is_file():
+        desc_map = load_chimeratech_desc_map(args.chimeratech)
+        print(
+            f"Loaded {len(desc_map)} non-empty desc entries from {args.chimeratech}",
+            file=sys.stderr,
+        )
     paths = list_images(args.image_dir, recursive=args.recursive)
+    if args.shuffle_seed is not None:
+        rng = np.random.default_rng(int(args.shuffle_seed))
+        rng.shuffle(paths)
+    off = max(0, int(args.offset))
+    if off:
+        paths = paths[off:]
     if args.limit > 0:
-        paths = paths[: args.limit]
+        paths = paths[: int(args.limit)]
     if not paths:
         print(f"No images under {args.image_dir}", file=sys.stderr)
         sys.exit(1)
 
     device = args.device or ("cuda" if torch.cuda.is_available() else "cpu")
+    raw_tok = (args.hf_token or os.environ.get("HF_TOKEN") or "").strip()
+    hf_tok: Optional[str] = raw_tok or None
     print(f"Device: {device}, model: {args.model}", file=sys.stderr)
     print(f"Loading CLIP…", file=sys.stderr)
-    model = CLIPModel.from_pretrained(args.model).to(device)
-    processor = CLIPProcessor.from_pretrained(args.model)
+    load_kw: dict[str, Any] = {}
+    if hf_tok:
+        load_kw["token"] = hf_tok
+    model = CLIPModel.from_pretrained(args.model, **load_kw).to(device)
+    processor = CLIPProcessor.from_pretrained(args.model, **load_kw)
     model.eval()
 
-    phrases = [tag_to_visual_phrase(t, args.prompt_template) for t in tag_names]
+    templates = (
+        [args.prompt_template]
+        if args.no_prompt_ensemble
+        else list(DEFAULT_PROMPT_TEMPLATES)
+    )
+    n_tags = len(tag_names)
+    n_tmpl = len(templates)
+    phrases: list[str] = []
+    for t in tag_names:
+        for tmpl in templates:
+            phrases.append(tag_to_visual_phrase(t, tmpl))
     text_features_list: list[torch.Tensor] = []
-    text_bs = 64
+    text_bs = max(1, int(args.text_batch_size))
+    n_phrase = len(phrases)
+    print(
+        f"Encoding {n_phrase} tag prompts ({n_tags} tags) — this dominates startup when the list is huge…",
+        file=sys.stderr,
+    )
     with torch.no_grad():
         for start in range(0, len(phrases), text_bs):
             batch = phrases[start : start + text_bs]
-            t_in = processor(text=batch, return_tensors="pt", padding=True).to(device)
-            tf = model.get_text_features(**t_in)
-            tf = tf / tf.norm(dim=-1, keepdim=True)
+            tf = encode_texts_normalized(model, processor, batch, device)
             text_features_list.append(tf)
-    text_features = torch.cat(text_features_list, dim=0)
+    stacked = torch.cat(text_features_list, dim=0)
+    # [n_tags * n_tmpl, D] -> mean over templates -> normalize
+    d = stacked.shape[1]
+    stacked = stacked.view(n_tags, n_tmpl, d).mean(dim=1)
+    text_features = stacked / stacked.norm(dim=-1, keepdim=True)
+    print(
+        f"Tag text embeddings: {n_tags} tags × {n_tmpl} prompt(s) (ensemble={not args.no_prompt_ensemble})",
+        file=sys.stderr,
+    )
 
-    use_pairwise = mmr_lambda < 1.0 - 1e-9 or args.max_similar_picked > 0
-    tag_tag_sim: Optional[np.ndarray]
-    if use_pairwise:
-        tag_tag_sim = (
-            (text_features @ text_features.T).detach().float().cpu().numpy()
+    need_tag_emb = mmr_lambda < 1.0 - 1e-9 or args.max_similar_picked > 0
+    tag_emb_np: Optional[np.ndarray] = None
+    if need_tag_emb:
+        tag_emb_np = text_features.detach().float().cpu().numpy().astype(
+            np.float32, copy=False
         )
-    else:
-        tag_tag_sim = None
 
     out: list[dict[str, Any]] = []
     bs = max(1, args.batch_size)
@@ -271,20 +488,53 @@ def main() -> None:
             if not images:
                 continue
 
-            inp = processor(images=images, return_tensors="pt", padding=True).to(device)
-            img_f = model.get_image_features(pixel_values=inp["pixel_values"])
+            inp = processor(images=images, return_tensors="pt", padding=True)
+            pixels = inp["pixel_values"].to(device)
+            img_f = model.get_image_features(pixel_values=pixels)
+            img_f = _as_feature_tensor(img_f, tower="image")
             img_f = img_f / img_f.norm(dim=-1, keepdim=True)
             sims_b = (img_f @ text_features.T).float().cpu().numpy()
 
+            desc_rows: list[int] = []
+            desc_strings: list[str] = []
             for row, pth in enumerate(ok_paths):
-                sims = sims_b[row]
+                if desc_w <= 0 or not desc_map:
+                    continue
+                cid = passcode_from_image_path(pth)
+                if cid is None:
+                    continue
+                d = desc_map.get(cid)
+                if not d:
+                    continue
+                desc_rows.append(row)
+                desc_strings.append(f"{args.desc_prefix}{d}")
+
+            sims_desc_subset: Optional[np.ndarray] = None
+            row_to_desc_idx: dict[int, int] = {}
+            if desc_strings:
+                d_emb = encode_texts_normalized(
+                    model, processor, desc_strings, device
+                )
+                sims_desc_subset = (d_emb @ text_features.T).float().cpu().numpy()
+                row_to_desc_idx = {r: j for j, r in enumerate(desc_rows)}
+
+            for row, pth in enumerate(ok_paths):
+                sims = sims_b[row].copy()
+                if (
+                    sims_desc_subset is not None
+                    and row in row_to_desc_idx
+                    and desc_w > 0
+                ):
+                    di = row_to_desc_idx[row]
+                    sims = (1.0 - desc_w) * sims + desc_w * sims_desc_subset[di]
                 tags = pick_tags_for_row(
                     sims,
                     tag_names,
-                    tag_tag_sim,
+                    tag_emb_np,
                     min_tags=min_t,
                     max_tags=max_t,
                     sim_floor=args.sim_floor,
+                    top_margin=max(0.0, float(args.top_margin)),
                     mmr_lambda=mmr_lambda,
                     max_similar_picked=max(0, args.max_similar_picked),
                     similar_pair_threshold=float(args.similar_pair_threshold),
@@ -305,13 +555,33 @@ def main() -> None:
 
             print(f"  {min(start + len(ok_paths), len(paths))}/{len(paths)}", file=sys.stderr)
 
+    merged_n = 0
+    if args.merge and args.output.is_file():
+        try:
+            prev = json.loads(args.output.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            prev = []
+        if isinstance(prev, list):
+            by_file: dict[str, dict[str, Any]] = {}
+            for row in prev:
+                if isinstance(row, dict) and row.get("file"):
+                    by_file[str(row["file"])] = row
+            merged_n = len(by_file)
+            for row in out:
+                by_file[str(row["file"])] = row
+            out = sorted(by_file.values(), key=lambda r: str(r.get("file", "")))
+
     try:
         args.output.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     except OSError as e:
         print(f"Cannot write {args.output}: {e}", file=sys.stderr)
         sys.exit(1)
 
-    print(f"Wrote {args.output} ({len(out)} images)", file=sys.stderr)
+    msg = f"Wrote {args.output} ({len(out)} records"
+    if args.merge and merged_n:
+        msg += f", merged from prior file"
+    msg += ")"
+    print(msg, file=sys.stderr)
 
 
 if __name__ == "__main__":

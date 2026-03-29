@@ -1,2 +1,3 @@
-- train an image model on ygo card cropped art to describe in 3-10 tags
+- redo the pokemon tags
+- train a model on ygo card sentences/descriptions to describe in 1-5 tags
 - tkinter program to display tag info
